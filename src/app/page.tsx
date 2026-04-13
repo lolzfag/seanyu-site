@@ -273,6 +273,10 @@ export default function Home() {
             />
             <SocialLink href="https://peony.ink" label="Peony" />
             <SocialLink href="mailto:sean@peony.ink" label="sean@peony.ink" />
+            <SocialLink
+              href="mailto:sean@gingercontrol.com"
+              label="sean@gingercontrol.com"
+            />
             {/* TODO: Add Twitter, GitHub */}
           </div>
         </section>

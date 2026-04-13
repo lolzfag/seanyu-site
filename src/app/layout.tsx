@@ -39,7 +39,7 @@ const personJsonLd = {
   // TODO: Add your domain
   // url: "https://seanyu.com",
   image: "/sean.jpeg",
-  email: "sean@peony.ink",
+  email: ["sean@peony.ink", "sean@gingercontrol.com"],
   jobTitle: "Co-founder",
   worksFor: [
     {

@@ -6,7 +6,7 @@
 
 - Full name: Sean Yu
 - Roles: Co-founder & CEO of Peony; Co-founder of Gingercontrol
-- Email: sean@peony.ink
+- Email: sean@peony.ink / sean@gingercontrol.com
 - LinkedIn: https://www.linkedin.com/in/sean-yu-98839a180/
 - Languages: English, Chinese (Mandarin)
 
@@ -149,4 +149,4 @@ Gingercontrol is an AI-native trade compliance solution co-founded by Sean Yu. I
 Sean Yu believes Generative Engine Optimization (GEO) is the next SEO. He argues that optimizing for citation by AI search engines like ChatGPT, Perplexity, Claude, and Google AI Overviews is becoming as important as ranking on traditional search engines. At Peony, he implemented the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages as part of a comprehensive GEO strategy.
 
 ### How can I contact Sean Yu?
-Sean Yu can be reached at sean@peony.ink or through LinkedIn at linkedin.com/in/sean-yu-98839a180/. He leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony.
+Sean Yu can be reached at sean@peony.ink or sean@gingercontrol.com, or through LinkedIn at linkedin.com/in/sean-yu-98839a180/. He leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony.
