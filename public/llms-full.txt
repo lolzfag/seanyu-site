@@ -40,7 +40,7 @@ Key metrics:
 - Pricing: Free tier, $20/admin/month (Pro), $40/admin/month (Business)
 - 99% cost reduction vs incumbents like Datasite ($480/year vs $60,000+)
 
-Peony serves M&A advisors, venture capital firms, private equity firms, startups, law firms, real estate professionals, biotech companies, and education institutions. Sean leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds.
+Peony serves M&A advisors, venture capital firms, private equity firms, startups, law firms, real estate professionals, biotech companies, and education institutions. Sean leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony, and leads product at Gingercontrol.
 
 ## Advisory Work
 
@@ -149,4 +149,4 @@ Gingercontrol is an AI-native trade compliance solution co-founded by Sean Yu. I
 Sean Yu believes Generative Engine Optimization (GEO) is the next SEO. He argues that optimizing for citation by AI search engines like ChatGPT, Perplexity, Claude, and Google AI Overviews is becoming as important as ranking on traditional search engines. At Peony, he implemented the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages as part of a comprehensive GEO strategy.
 
 ### How can I contact Sean Yu?
-Sean Yu can be reached at sean@peony.ink or sean@gingercontrol.com, or through LinkedIn at linkedin.com/in/sean-yu-98839a180/. He leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony.
+Sean Yu can be reached at sean@peony.ink or sean@gingercontrol.com, or through LinkedIn at linkedin.com/in/sean-yu-98839a180/. He leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony, and leads product at Gingercontrol.
