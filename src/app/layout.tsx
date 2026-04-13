@@ -10,11 +10,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Sean Yu — Founder, Investor, Operator",
   description:
-    "Sean Yu is a founder and operator. Co-founder of Peony (modern data room, 3,400+ teams) and Gingercontrol (AI-native trade compliance). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
+    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink, 3,400+ teams). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
   openGraph: {
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Co-founder of Peony & Gingercontrol. Former VC at Backed VC and Target Global. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
+      "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
     type: "website",
     // TODO: Uncomment once domain is live
     // url: "https://seanyu.com",
@@ -24,9 +24,8 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Co-founder of Peony & Gingercontrol. Former VC at Backed VC and Target Global. Imperial College London.",
-    // TODO: Add your Twitter handle
-    // creator: "@seanyu",
+      "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London.",
+    creator: "@WtsSeanBuilding",
   },
   // TODO: Uncomment once domain is live
   // metadataBase: new URL("https://seanyu.com"),
@@ -44,16 +43,17 @@ const personJsonLd = {
   worksFor: [
     {
       "@type": "Organization",
+      name: "Gingercontrol",
+      url: "https://gingercontrol.com",
+      description:
+        "AI-native trade compliance solution for cross-border import/export operations.",
+    },
+    {
+      "@type": "Organization",
       name: "Peony",
       url: "https://peony.ink",
       description:
         "Modern data room platform for secure document sharing. Used by 3,400+ teams managing $4.5B+ in client assets.",
-    },
-    {
-      "@type": "Organization",
-      name: "Gingercontrol",
-      description:
-        "AI-native trade compliance solution for cross-border import/export operations.",
     },
   ],
   alumniOf: [
@@ -96,11 +96,12 @@ const personJsonLd = {
   ],
   sameAs: [
     "https://www.linkedin.com/in/sean-yu-98839a180/",
+    "https://x.com/WtsSeanBuilding",
+    "https://gingercontrol.com",
     "https://peony.ink/about",
-    // TODO: Add Twitter, GitHub
   ],
   description:
-    "Co-founder of Peony (modern data room, 3,400+ teams, $4.5B+ in assets) and Gingercontrol (AI-native trade compliance). Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
+    "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink, 3,400+ teams, $4.5B+ in assets). Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
 };
 
 export default function RootLayout({

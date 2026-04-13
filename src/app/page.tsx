@@ -8,7 +8,7 @@ export default function Home() {
         <header className="mb-16">
           <Image
             src="/sean.jpeg"
-            alt="Sean Yu, Co-founder of Peony and Gingercontrol"
+            alt="Sean Yu, Co-founder of Gingercontrol and Peony"
             width={96}
             height={96}
             className="rounded-full mb-6"
@@ -20,15 +20,18 @@ export default function Home() {
           <p className="mt-4 text-xl text-muted leading-relaxed">
             Co-founder of{" "}
             <a
+              href="https://gingercontrol.com"
+              className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+            >
+              Gingercontrol
+            </a>{" "}
+            and{" "}
+            <a
               href="https://peony.ink"
               className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
             >
               Peony
-            </a>{" "}
-            and{" "}
-            <strong className="text-foreground font-medium">
-              Gingercontrol
-            </strong>
+            </a>
             . Former VC at{" "}
             <strong className="text-foreground font-medium">Backed VC</strong>{" "}
             and{" "}
@@ -77,7 +80,13 @@ export default function Home() {
             </p>
             <p>
               I co-founded{" "}
-              <strong>Gingercontrol</strong>, an AI-native trade compliance
+              <a
+                href="https://gingercontrol.com"
+                className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+              >
+                <strong>Gingercontrol</strong>
+              </a>
+              , an AI-native trade compliance
               solution for cross-border import/export, and raised{" "}
               <strong>$2.1M</strong> for it. Navigating international supply
               chains, logistics, and regulatory complexity across borders shaped
@@ -160,7 +169,7 @@ export default function Home() {
             <ExpertiseCard
               title="Startups"
               items={[
-                "Zero-to-one building (Peony, Gingercontrol)",
+                "Zero-to-one building (Gingercontrol, Peony)",
                 "Raised $2.1M as a first-time founder",
                 "Product-market fit validation",
                 "Capital-efficient growth strategies",
@@ -209,6 +218,30 @@ export default function Home() {
             <div className="rounded-lg border border-border p-6">
               <h3 className="text-lg font-semibold">
                 <a
+                  href="https://gingercontrol.com"
+                  className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+                >
+                  Gingercontrol
+                </a>
+              </h3>
+              <p className="mt-1 text-sm text-muted">
+                AI-native trade compliance for cross-border import/export
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+                <li>
+                  Raised <strong>$2.1M</strong>
+                </li>
+                <li>
+                  Automates trade classification, screening, and documentation
+                </li>
+                <li>
+                  Built for importers, exporters, and freight forwarders
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-lg border border-border p-6">
+              <h3 className="text-lg font-semibold">
+                <a
                   href="https://peony.ink"
                   className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
                 >
@@ -241,23 +274,6 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="rounded-lg border border-border p-6">
-              <h3 className="text-lg font-semibold">Gingercontrol</h3>
-              <p className="mt-1 text-sm text-muted">
-                AI-native trade compliance for cross-border import/export
-              </p>
-              <ul className="mt-4 space-y-2 text-sm text-foreground/80">
-                <li>
-                  Raised <strong>$2.1M</strong>
-                </li>
-                <li>
-                  Automates trade classification, screening, and documentation
-                </li>
-                <li>
-                  Built for importers, exporters, and freight forwarders
-                </li>
-              </ul>
-            </div>
           </div>
         </section>
 
@@ -271,13 +287,14 @@ export default function Home() {
               href="https://www.linkedin.com/in/sean-yu-98839a180/"
               label="LinkedIn"
             />
-            <SocialLink href="https://peony.ink" label="Peony" />
-            <SocialLink href="mailto:sean@peony.ink" label="sean@peony.ink" />
             <SocialLink
-              href="mailto:sean@gingercontrol.com"
-              label="sean@gingercontrol.com"
+              href="https://x.com/WtsSeanBuilding"
+              label="Twitter / X"
             />
-            {/* TODO: Add Twitter, GitHub */}
+            <SocialLink href="https://gingercontrol.com" label="Gingercontrol" />
+            <SocialLink href="https://peony.ink" label="Peony" />
+            <SocialLink href="mailto:sean@gingercontrol.com" label="sean@gingercontrol.com" />
+            <SocialLink href="mailto:sean@peony.ink" label="sean@peony.ink" />
           </div>
         </section>
 
