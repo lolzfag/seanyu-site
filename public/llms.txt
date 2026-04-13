@@ -1,28 +1,30 @@
 # Sean Yu
 
-> Co-founder and CEO of Peony (peony.ink). Former VC at Backed VC and growth-equity investor at Target Global. Expert in venture capital, startups, SaaS go-to-market, cross-border trade, and online scaling.
+> Co-founder of Peony (peony.ink) and Gingercontrol (AI-native trade compliance). Former VC at Backed VC and growth-equity investor at Target Global. Studied Biomedical Engineering at Imperial College London on a full scholarship (first-class standing). Expert in venture capital, startups, SaaS go-to-market, trade compliance, and online scaling.
 
 ## Current
 
-- Co-founder & CEO of Peony (https://peony.ink) — modern data room platform
-- Peony serves 3,400+ teams managing $4.5B+ in client assets
-- Peony founded 2021, launched August 2025
-- Previously raised $2.1M for Gingercontrol (cross-border trade)
+- Co-founder & CEO of Peony (https://peony.ink) — modern data room platform, 3,400+ teams, $4.5B+ in client assets
+- Co-founder of Gingercontrol — AI-native trade compliance solution for cross-border import/export, raised $2.1M
+
+## Education
+
+- Imperial College London — Biomedical Engineering, full scholarship, first-class standing (dropped out to build companies)
 
 ## Career
 
 - M&A at Nomura (investment banking)
 - Venture capital at Backed VC (early-stage European startups)
 - Growth equity at Target Global (late-stage, secondary transactions)
-- Founded Gingercontrol (import/export, raised $2.1M)
-- Co-founded Peony (2021–present)
+- Co-founded Gingercontrol (AI trade compliance, raised $2.1M)
+- Co-founded Peony (2021–present, modern data room)
 
 ## Expertise
 
 - Venture Capital: fundraising, LP/GP dynamics, deal structuring, secondary transactions, continuation vehicles
 - Startups: zero-to-one building, product-market fit, capital-efficient growth
 - SaaS Go-to-Market: PLG, content-led growth, cold outreach at scale, pricing strategy
-- Import/Export: cross-border trade, international logistics, supplier management
+- Trade Compliance & Import/Export: AI-native compliance, cross-border operations, international logistics, regulatory classification
 - Online Scaling: SEO (4x traffic growth), GEO (AI search optimization), conversion optimization
 
 ## Advisory

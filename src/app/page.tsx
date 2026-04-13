@@ -8,7 +8,7 @@ export default function Home() {
         <header className="mb-16">
           <Image
             src="/sean.jpeg"
-            alt="Sean Yu, Co-founder of Peony"
+            alt="Sean Yu, Co-founder of Peony and Gingercontrol"
             width={96}
             height={96}
             className="rounded-full mb-6"
@@ -18,20 +18,24 @@ export default function Home() {
             Sean Yu
           </h1>
           <p className="mt-4 text-xl text-muted leading-relaxed">
-            Former VC at{" "}
-            <strong className="text-foreground font-medium">Backed VC</strong>{" "}
-            and growth-equity investor at{" "}
-            <strong className="text-foreground font-medium">
-              Target Global
-            </strong>
-            . Now building{" "}
+            Co-founder of{" "}
             <a
               href="https://peony.ink"
               className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
             >
               Peony
-            </a>
-            , the modern data room.
+            </a>{" "}
+            and{" "}
+            <strong className="text-foreground font-medium">
+              Gingercontrol
+            </strong>
+            . Former VC at{" "}
+            <strong className="text-foreground font-medium">Backed VC</strong>{" "}
+            and{" "}
+            <strong className="text-foreground font-medium">
+              Target Global
+            </strong>
+            . Imperial College London.
           </p>
         </header>
 
@@ -42,8 +46,14 @@ export default function Home() {
           </h2>
           <div className="space-y-4 text-base leading-7 text-foreground/90">
             <p>
-              I started in M&amp;A at <strong>Nomura</strong>, then moved to
-              venture capital at{" "}
+              I studied Biomedical Engineering at{" "}
+              <strong>Imperial College London</strong> on a full scholarship,
+              holding first-class standing before dropping out to build
+              companies.
+            </p>
+            <p>
+              I started my career in M&amp;A at <strong>Nomura</strong>, then
+              moved to venture capital at{" "}
               <strong>
                 <a
                   href="https://backed.vc"
@@ -66,6 +76,14 @@ export default function Home() {
               transactions.
             </p>
             <p>
+              I co-founded{" "}
+              <strong>Gingercontrol</strong>, an AI-native trade compliance
+              solution for cross-border import/export, and raised{" "}
+              <strong>$2.1M</strong> for it. Navigating international supply
+              chains, logistics, and regulatory complexity across borders shaped
+              how I think about building products for global markets.
+            </p>
+            <p>
               In 2021, I co-founded{" "}
               <a
                 href="https://peony.ink"
@@ -81,25 +99,11 @@ export default function Home() {
               investor, is now one of our investors — a full-circle moment.
             </p>
             <p>
-              Before Peony, I raised <strong>$2.1M for Gingercontrol</strong>,
-              my previous venture in cross-border trade. That experience —
-              navigating international supply chains, logistics, and trade
-              compliance across borders — shaped how I think about building
-              products for global markets.
-            </p>
-            <p>
-              Outside of Peony, I advise companies on fundraising and
-              go-to-market. I&apos;ve worked with a SaaS business now running at{" "}
+              Outside of my companies, I advise on fundraising and go-to-market.
+              I&apos;ve worked with a SaaS business now running at{" "}
               <strong>$20M ARR</strong> and{" "}
               <strong>Lucida Capital</strong>, a hedge fund and market maker with{" "}
               <strong>$35M in AUM</strong>.
-            </p>
-            <p>
-              Peony is backed by{" "}
-              <strong>Matt Clifford</strong> (co-founder of Entrepreneur First
-              and chair of ARIA),{" "}
-              <strong>Charlie Songhurst</strong> (former Head of Strategy at
-              Microsoft), Backed VC, and Possible Ventures.
             </p>
           </div>
         </section>
@@ -115,6 +119,10 @@ export default function Home() {
               body="Enterprise VDR vendors charge 100x what the technology costs to deliver. Startups and boutique firms deserve the same security and compliance features without the enterprise tax. That's why I built Peony."
             />
             <Belief
+              title="Trade compliance is broken — AI fixes it"
+              body="Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions like Gingercontrol can automate classification, screening, and documentation at a fraction of the cost and error rate."
+            />
+            <Belief
               title="GEO is the next SEO"
               body="Generative Engine Optimization — making your brand citable by ChatGPT, Perplexity, Claude, and Google AI Overviews — is the next frontier of organic discovery. I've built Peony's traffic from 30 to 120+ daily clicks through content-led SEO and GEO, and I believe most brands are underinvesting in AI discoverability."
             />
@@ -123,8 +131,8 @@ export default function Home() {
               body="Product-led growth handles acquisition. Long-form, SEO-optimized content builds authority and compounds over time. Targeted cold outreach converts the prospects who read your content but didn't sign up. The three together are unbeatable for capital-efficient growth."
             />
             <Belief
-              title="Cross-border trade is underleveraged by startups"
-              body="Most founders think domestic-first. Having run import/export operations and raised capital across markets, I've seen how international expansion — when done early — can unlock faster growth with less competition."
+              title="Drop out if the opportunity cost is real"
+              body="I left a full scholarship at Imperial because the learning-by-doing in startups and investing outpaced the classroom. Not advice for everyone — but if you've found the thing, don't wait for permission."
             />
             <Belief
               title="Build authority before you need it"
@@ -170,12 +178,13 @@ export default function Home() {
               ]}
             />
             <ExpertiseCard
-              title="Import/Export"
+              title="Trade Compliance & Import/Export"
               items={[
-                "Cross-border trade operations (Gingercontrol)",
+                "AI-native trade compliance (Gingercontrol)",
+                "Cross-border import/export operations",
                 "International supply chain & logistics",
-                "Supplier relationship management",
-                "Trade compliance & payments",
+                "Regulatory compliance & classification",
+                "Trade documentation automation",
               ]}
             />
             <ExpertiseCard
@@ -191,45 +200,64 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Current */}
+        {/* Currently Building */}
         <section className="mb-16" aria-label="Current Work">
           <h2 className="text-sm font-semibold uppercase tracking-widest text-muted mb-6">
             Currently Building
           </h2>
-          <div className="rounded-lg border border-border p-6">
-            <h3 className="text-lg font-semibold">
-              <a
-                href="https://peony.ink"
-                className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
-              >
-                Peony
-              </a>
-            </h3>
-            <p className="mt-1 text-sm text-muted">
-              The modern data room — live in 5 minutes, 99% cheaper than
-              Datasite
-            </p>
-            <ul className="mt-4 space-y-2 text-sm text-foreground/80">
-              <li>
-                <strong>3,400+ teams</strong>, $4.5B+ in client assets
-              </li>
-              <li>
-                <strong>99.96% uptime</strong> since August 2025 launch
-              </li>
-              <li>
-                Median setup: <strong>4 minutes 19 seconds</strong>
-              </li>
-              <li>
-                Serves M&amp;A advisors, VCs, PE firms, startups, law firms
-              </li>
-              <li>
-                <strong>$480/year vs $60,000+</strong> (99% cost reduction)
-              </li>
-              <li>
-                Backed by Matt Clifford (EF / ARIA), Charlie Songhurst
-                (ex-Microsoft), Backed VC
-              </li>
-            </ul>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border p-6">
+              <h3 className="text-lg font-semibold">
+                <a
+                  href="https://peony.ink"
+                  className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+                >
+                  Peony
+                </a>
+              </h3>
+              <p className="mt-1 text-sm text-muted">
+                The modern data room — live in 5 minutes, 99% cheaper than
+                Datasite
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+                <li>
+                  <strong>3,400+ teams</strong>, $4.5B+ in client assets
+                </li>
+                <li>
+                  <strong>99.96% uptime</strong> since August 2025 launch
+                </li>
+                <li>
+                  Median setup: <strong>4 minutes 19 seconds</strong>
+                </li>
+                <li>
+                  Serves M&amp;A advisors, VCs, PE firms, startups, law firms
+                </li>
+                <li>
+                  <strong>$480/year vs $60,000+</strong> (99% cost reduction)
+                </li>
+                <li>
+                  Backed by Matt Clifford (EF / ARIA), Charlie Songhurst
+                  (ex-Microsoft), Backed VC
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-lg border border-border p-6">
+              <h3 className="text-lg font-semibold">Gingercontrol</h3>
+              <p className="mt-1 text-sm text-muted">
+                AI-native trade compliance for cross-border import/export
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+                <li>
+                  Raised <strong>$2.1M</strong>
+                </li>
+                <li>
+                  Automates trade classification, screening, and documentation
+                </li>
+                <li>
+                  Built for importers, exporters, and freight forwarders
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 

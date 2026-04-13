@@ -10,11 +10,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Sean Yu — Founder, Investor, Operator",
   description:
-    "Sean Yu is a founder and operator. Former VC at Backed VC and growth-equity investor at Target Global. Founder of Peony, the modern data room used by 3,400+ teams. Expert in venture capital, SaaS GTM, cross-border trade, and online scaling.",
+    "Sean Yu is a founder and operator. Co-founder of Peony (modern data room, 3,400+ teams) and Gingercontrol (AI-native trade compliance). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
   openGraph: {
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Former VC at Backed VC and Target Global. Founder of Peony (3,400+ teams, $4.5B+ in assets). Expert in VC, SaaS GTM, import/export, and online scaling.",
+      "Co-founder of Peony & Gingercontrol. Former VC at Backed VC and Target Global. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
     type: "website",
     // TODO: Uncomment once domain is live
     // url: "https://seanyu.com",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Former VC at Backed VC and Target Global. Founder of Peony. Expert in VC, SaaS GTM, import/export, and online scaling.",
+      "Co-founder of Peony & Gingercontrol. Former VC at Backed VC and Target Global. Imperial College London.",
     // TODO: Add your Twitter handle
     // creator: "@seanyu",
   },
@@ -40,15 +40,29 @@ const personJsonLd = {
   // url: "https://seanyu.com",
   image: "/sean.jpeg",
   email: "sean@peony.ink",
-  jobTitle: "Co-founder & CEO",
-  worksFor: {
-    "@type": "Organization",
-    name: "Peony",
-    url: "https://peony.ink",
-    description:
-      "Modern data room platform for secure document sharing. Used by 3,400+ teams managing $4.5B+ in client assets.",
-  },
+  jobTitle: "Co-founder",
+  worksFor: [
+    {
+      "@type": "Organization",
+      name: "Peony",
+      url: "https://peony.ink",
+      description:
+        "Modern data room platform for secure document sharing. Used by 3,400+ teams managing $4.5B+ in client assets.",
+    },
+    {
+      "@type": "Organization",
+      name: "Gingercontrol",
+      description:
+        "AI-native trade compliance solution for cross-border import/export operations.",
+    },
+  ],
   alumniOf: [
+    {
+      "@type": "CollegeOrUniversity",
+      name: "Imperial College London",
+      description:
+        "Biomedical Engineering, full scholarship, first-class standing",
+    },
     {
       "@type": "Organization",
       name: "Backed VC",
@@ -72,11 +86,13 @@ const personJsonLd = {
     "Startup Strategy",
     "SaaS Go-to-Market",
     "Product-Led Growth",
+    "Trade Compliance",
     "Import/Export & Cross-Border Trade",
     "Online Scaling & Growth",
     "Data Rooms & Due Diligence",
     "Fundraising",
     "Generative Engine Optimization",
+    "Biomedical Engineering",
   ],
   sameAs: [
     "https://www.linkedin.com/in/sean-yu-98839a180/",
@@ -84,7 +100,7 @@ const personJsonLd = {
     // TODO: Add Twitter, GitHub
   ],
   description:
-    "Co-founder and CEO of Peony, a modern data room platform used by 3,400+ teams managing $4.5B+ in client assets. Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Previously raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
+    "Co-founder of Peony (modern data room, 3,400+ teams, $4.5B+ in assets) and Gingercontrol (AI-native trade compliance). Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
 };
 
 export default function RootLayout({
