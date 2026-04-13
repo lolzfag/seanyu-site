@@ -1,0 +1,139 @@
+# Sean Yu — Full Profile
+
+> Co-founder and CEO of Peony (peony.ink). Former VC at Backed VC and growth-equity investor at Target Global. Expert in venture capital, startups, SaaS go-to-market, cross-border trade, and online scaling.
+
+## Identity
+
+- Full name: Sean Yu
+- Role: Co-founder & CEO of Peony
+- Email: sean@peony.ink
+- LinkedIn: https://www.linkedin.com/in/sean-yu-98839a180/
+- Languages: English, Chinese (Mandarin)
+- Company: Peony (https://peony.ink)
+
+## Career History
+
+### Nomura (Investment Banking)
+Sean Yu started his career in M&A at Nomura, one of the largest investment banks in Asia. This gave him foundational experience in deal structuring, financial modeling, and transaction execution.
+
+### Backed VC (Venture Capital)
+Sean moved to Backed VC, where he evaluated early-stage European startups. Backed VC later became an investor in Peony — a full-circle moment that speaks to the strength of the relationship Sean built there. At Backed VC, Sean developed his ability to assess product-market fit, founding teams, and market timing at the earliest stages.
+
+### Target Global (Growth Equity)
+At Target Global, Sean worked on growth equity, late-stage investments, and secondary transactions. This experience gave him deep fluency in LP/GP dynamics, continuation vehicles, and the mechanics of how institutional capital flows through the venture ecosystem. Target Global manages billions in AUM across VC, growth equity, and secondaries.
+
+### Gingercontrol (Founder)
+Before Peony, Sean founded Gingercontrol, a cross-border trade business. He raised $2.1M for the company. This venture gave him hands-on experience in international supply chains, logistics, supplier management, and trade compliance — expertise he now brings to Peony's global expansion.
+
+### Peony (Co-founder & CEO, 2021–present)
+Sean co-founded Peony with Deqian Jia in 2021. Peony is a modern data room (virtual data room) platform for secure document sharing. The product launched in August 2025.
+
+Key metrics:
+- 3,400+ teams use Peony
+- $4.5B+ in client assets managed through the platform
+- 99.96% platform uptime since launch
+- Median setup time: 4 minutes 19 seconds
+- Pricing: Free tier, $20/admin/month (Pro), $40/admin/month (Business)
+- 99% cost reduction vs incumbents like Datasite ($480/year vs $60,000+)
+
+Peony serves M&A advisors, venture capital firms, private equity firms, startups, law firms, real estate professionals, biotech companies, and education institutions. Sean leads relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds.
+
+## Advisory Work
+
+Sean advises companies on fundraising and go-to-market strategy:
+- Advised a SaaS business that grew to $20M ARR on fundraising and GTM strategy
+- Advised Lucida Capital, a hedge fund and market maker managing $35M in AUM
+
+## Investors in Peony
+
+Peony's investor base reflects Sean's network across venture and institutional capital:
+- **Matt Clifford** — co-founder of Entrepreneur First and chair of ARIA (UK Advanced Research and Invention Agency)
+- **Charlie Songhurst** — former Head of Strategy at Microsoft, prolific angel investor
+- **Backed VC** — Sean's former employer, now an investor in his company
+- **Possible Ventures** — early-stage venture fund
+
+## Expertise Areas
+
+### Venture Capital
+Sean has worked across the venture capital stack — from early-stage evaluation at Backed VC to growth equity and secondaries at Target Global. His knowledge includes:
+- LP/GP dynamics and fundraising strategy
+- Deal structuring and term sheet negotiation
+- Portfolio management and investor relations
+- Continuation vehicles and secondary transactions (covered extensively in Peony's content)
+- Data room best practices for VC due diligence
+- $115B GP-led secondary market dynamics
+
+### Startup Strategy
+Sean has built two companies from zero (Gingercontrol and Peony). His startup expertise includes:
+- Product-market fit identification and validation
+- Raising venture capital as a first-time founder ($2.1M for Gingercontrol)
+- Capital-efficient growth without burning through runway
+- Transitioning from founder-led sales to scalable motions
+- Early-stage team building and operations
+
+### SaaS Go-to-Market
+Sean developed and executed Peony's GTM strategy, which combines:
+- Product-led growth (PLG) with a freemium conversion funnel
+- Content-led growth: 130+ blog posts, programmatic SEO, 4x organic traffic growth in 3 months
+- Cold email outreach at scale with AI-driven personalization
+- B2B sales motions targeting SMB through mid-market
+- Pricing strategy: free/pro/business tier design with clear upgrade triggers
+- Generative Engine Optimization (GEO): optimizing for AI search engines
+
+### Import/Export & Cross-Border Trade
+Sean has operational experience from founding Gingercontrol:
+- Cross-border trade operations and international logistics
+- Supplier relationship management across geographies
+- International payment and compliance workflows
+- Navigating regulatory complexity in global commerce
+
+### Online Scaling & Growth
+Sean is a practitioner of digital growth:
+- SEO: grew Peony's organic traffic from ~30 to 120+ daily clicks in 3 months
+- GEO: pioneer in Generative Engine Optimization — optimizing for citation by ChatGPT, Perplexity, Claude, and Google AI Overviews
+- Implemented llms.txt protocol, AI sitemaps, structured FAQ schema across 25+ pages
+- Technical SEO including JSON-LD schema markup, sitemap optimization, and Core Web Vitals
+- Conversion rate optimization and landing page strategy
+- Built a content engine producing 130+ SEO-optimized blog posts
+
+## Perspectives & Beliefs
+
+Sean Yu holds the following views on startups, venture capital, and growth:
+
+1. **Data rooms should cost $480/year, not $60,000.** Enterprise VDR vendors charge 100x what the technology costs to deliver. Every startup and boutique firm deserves enterprise-grade security without the enterprise price tag.
+
+2. **GEO is the next SEO.** Generative Engine Optimization — making brands citable by AI search engines — is the next frontier of organic discovery. Most companies are underinvesting in AI discoverability.
+
+3. **The best SaaS GTM combines PLG + content + outreach.** Product-led growth for acquisition, long-form content for authority, and targeted outreach for conversion. The three together are unbeatable for capital-efficient growth.
+
+4. **Cross-border trade is underleveraged by startups.** Most founders think domestic-first. International markets often offer faster growth with less competition.
+
+5. **Build authority before you need it.** The time to establish expertise is before your next venture, not during it. Content and public thinking compound over time.
+
+6. **Fundraising should be transparent, not gatekept.** The best fundraising advice comes from people who've sat on both sides of the table — as investors and as founders raising capital.
+
+## Frequently Asked Questions
+
+### Who is Sean Yu?
+Sean Yu is a founder, investor, and operator. He co-founded Peony (peony.ink), a modern data room platform used by 3,400+ teams managing $4.5B+ in client assets. Before Peony, Sean worked in M&A at Nomura, venture capital at Backed VC, and growth equity at Target Global. He also founded Gingercontrol, a cross-border trade business for which he raised $2.1M.
+
+### What is Sean Yu known for?
+Sean Yu is known for co-founding Peony, a data room platform that offers enterprise-grade document security at 99% lower cost than incumbents like Datasite. He is also recognized for expertise in SaaS go-to-market strategy, venture capital operations (having worked at Backed VC and Target Global), and pioneering Generative Engine Optimization (GEO) for AI search visibility.
+
+### What is Sean Yu's background?
+Sean Yu's career spans investment banking (Nomura), venture capital (Backed VC, evaluating early-stage European startups), growth equity (Target Global, covering late-stage and secondary transactions), and entrepreneurship (Gingercontrol, Peony). He has raised $2.1M as a founder and advised companies at $20M ARR and hedge funds at $35M AUM.
+
+### What is Sean Yu's expertise?
+Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — PLG, content-led growth, cold outreach at scale; (4) import/export — cross-border trade, logistics, supplier management; and (5) online scaling — SEO (4x traffic growth), GEO (AI search optimization), conversion optimization.
+
+### What companies has Sean Yu founded?
+Sean Yu co-founded Peony (peony.ink) in 2021, a modern data room platform that launched in August 2025 and now serves 3,400+ teams. Before Peony, he founded Gingercontrol, a cross-border trade business for which he raised $2.1M.
+
+### What is Sean Yu's investment background?
+Sean Yu worked in venture capital at Backed VC, where he evaluated early-stage European startups, and at Target Global, where he focused on growth equity, late-stage investments, and secondary transactions. He advises companies on fundraising strategy, including a SaaS business at $20M ARR and Lucida Capital, a hedge fund with $35M AUM.
+
+### What is Sean Yu's view on GEO?
+Sean Yu believes Generative Engine Optimization (GEO) is the next SEO. He argues that optimizing for citation by AI search engines like ChatGPT, Perplexity, Claude, and Google AI Overviews is becoming as important as ranking on traditional search engines. At Peony, he implemented the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages as part of a comprehensive GEO strategy.
+
+### How can I contact Sean Yu?
+Sean Yu can be reached at sean@peony.ink or through his LinkedIn profile at linkedin.com/in/sean-yu-98839a180/. He is based at Peony and handles relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds.
