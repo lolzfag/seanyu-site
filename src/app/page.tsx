@@ -87,7 +87,8 @@ export default function Home() {
                 <strong>Gingercontrol</strong>
               </a>
               , an AI-native trade compliance
-              solution for cross-border import/export, and raised{" "}
+              solution for cross-border import/export — now used by{" "}
+              <strong>90+ enterprises</strong> — and raised{" "}
               <strong>$2.1M</strong> for it. Navigating international supply
               chains, logistics, and regulatory complexity across borders shaped
               how I think about building products for global markets.
@@ -228,6 +229,9 @@ export default function Home() {
                 AI-native trade compliance for cross-border import/export
               </p>
               <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+                <li>
+                  <strong>90+ enterprises</strong> using the platform
+                </li>
                 <li>
                   Raised <strong>$2.1M</strong>
                 </li>

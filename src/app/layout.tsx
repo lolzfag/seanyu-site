@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Sean Yu — Founder, Investor, Operator",
   description:
-    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink, 3,400+ teams). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
+    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
   openGraph: {
     title: "Sean Yu — Founder, Investor, Operator",
     description:
@@ -46,7 +46,7 @@ const personJsonLd = {
       name: "Gingercontrol",
       url: "https://gingercontrol.com",
       description:
-        "AI-native trade compliance solution for cross-border import/export operations.",
+        "AI-native trade compliance solution for cross-border import/export operations. Used by 90+ enterprises.",
     },
     {
       "@type": "Organization",
@@ -101,7 +101,7 @@ const personJsonLd = {
     "https://peony.ink/about",
   ],
   description:
-    "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink, 3,400+ teams, $4.5B+ in assets). Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
+    "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams, $4.5B+ in assets). Former VC at Backed VC evaluating early-stage European startups and growth-equity investor at Target Global covering late-stage and secondary transactions. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
 };
 
 export default function RootLayout({
