@@ -14,7 +14,7 @@ export default function Home() {
             className="rounded-full mb-6"
             priority
           />
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5.3xl">
             Sean Yu
           </h1>
           <p className="mt-4 text-xl text-muted leading-relaxed">
@@ -52,7 +52,8 @@ export default function Home() {
               I studied Biomedical Engineering at{" "}
               <strong>Imperial College London</strong> on a full scholarship,
               holding first-class standing before dropping out to build
-              companies.
+              companies. I also founded the{" "}
+              <strong>Imperial Blockchain Society</strong>.
             </p>
             <p>
               I started my career in M&amp;A at <strong>Nomura</strong>, then
@@ -65,7 +66,8 @@ export default function Home() {
                   Backed VC
                 </a>
               </strong>
-              , where I evaluated early-stage European startups. From there I
+              , where I evaluated EU and US startups across AI, Blockchain, and
+              Consumer. From there I
               joined{" "}
               <strong>
                 <a
@@ -89,7 +91,9 @@ export default function Home() {
               , an AI-native trade compliance
               solution for cross-border import/export — now used by{" "}
               <strong>90+ enterprises</strong> — and raised{" "}
-              <strong>$2.1M</strong> for it. Navigating international supply
+              <strong>$2.1M</strong> for it. Gingercontrol reduces classification
+              time by <strong>94%</strong> and improves accuracy by{" "}
+              <strong>5.3x</strong>. Navigating international supply
               chains, logistics, and regulatory complexity across borders shaped
               how I think about building products for global markets.
             </p>
@@ -130,7 +134,7 @@ export default function Home() {
             />
             <Belief
               title="Trade compliance is broken — AI fixes it"
-              body="Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions like Gingercontrol can automate classification, screening, and documentation at a fraction of the cost and error rate."
+              body="Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions like Gingercontrol cut classification time by 94% and improve accuracy 5.3x — at a fraction of the cost and error rate."
             />
             <Belief
               title="GEO is the next SEO"
@@ -236,7 +240,8 @@ export default function Home() {
                   Raised <strong>$2.1M</strong>
                 </li>
                 <li>
-                  Automates trade classification, screening, and documentation
+                  Reduces classification time by <strong>94%</strong>, improves
+                  accuracy by <strong>5.3x</strong>
                 </li>
                 <li>
                   Built for importers, exporters, and freight forwarders
