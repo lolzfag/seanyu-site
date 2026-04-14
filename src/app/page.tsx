@@ -94,7 +94,7 @@ export default function Home() {
               how I think about building products for global markets.
             </p>
             <p>
-              In 2021, I co-founded{" "}
+              I co-founded{" "}
               <a
                 href="https://peony.ink"
                 className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
@@ -102,7 +102,7 @@ export default function Home() {
                 <strong>Peony</strong>
               </a>{" "}
               to make data rooms accessible to every team — not just enterprises
-              paying $60,000 a year. We launched in August 2025 and now serve{" "}
+              paying $60,000 a year. We now serve{" "}
               <strong>3,400+ teams</strong> managing{" "}
               <strong>$4.5B+ in client assets</strong>, at 99% lower cost than
               incumbents like Datasite. Backed VC, where I cut my teeth as an
@@ -261,7 +261,7 @@ export default function Home() {
                   <strong>3,400+ teams</strong>, $4.5B+ in client assets
                 </li>
                 <li>
-                  <strong>99.96% uptime</strong> since August 2025 launch
+                  <strong>99.96% uptime</strong> since launch
                 </li>
                 <li>
                   Median setup: <strong>4 minutes 19 seconds</strong>
