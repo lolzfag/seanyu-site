@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Header } from "@/components/Header";
 import { getAllPosts, formatDate } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site";
 
@@ -22,15 +23,9 @@ export default async function BlogIndexPage() {
 
   return (
     <div className="flex flex-col flex-1 items-center bg-background">
+      <Header />
       <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
-        <Link
-          href="/"
-          className="text-sm text-muted underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
-        >
-          ← Home
-        </Link>
-
-        <header className="mt-8 mb-16">
+        <header className="mb-16">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
             Blog
           </h1>

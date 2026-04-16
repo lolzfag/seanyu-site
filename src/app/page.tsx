@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center bg-background">
+      <Header />
       <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
         {/* Hero */}
         <header className="mb-16">

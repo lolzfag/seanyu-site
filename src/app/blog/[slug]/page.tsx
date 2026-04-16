@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Header } from "@/components/Header";
 import { getAllSlugs, getPost, formatDate } from "@/lib/posts";
 import { AUTHOR, SITE_URL } from "@/lib/site";
 
@@ -77,6 +78,7 @@ export default async function BlogPostPage(
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
+      <Header />
       <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
         <Link
           href="/blog"
