@@ -1,9 +1,14 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { getAllSlugs, getPost, formatDate } from "@/lib/posts";
-import { AUTHOR, SITE_URL } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
+import { buildPostMetadata } from "@/lib/metadata";
+import {
+  buildArticleSchema,
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+} from "@/lib/schema";
 
 export const dynamicParams = false;
 
@@ -11,41 +16,25 @@ export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> },
-): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   try {
     const { metadata } = await getPost(slug);
-    const url = `${SITE_URL}/blog/${slug}`;
-    return {
-      title: `${metadata.title} — Sean Yu`,
-      description: metadata.description,
-      alternates: { canonical: url },
-      openGraph: {
-        title: metadata.title,
-        description: metadata.description,
-        type: "article",
-        url,
-        publishedTime: metadata.date,
-        authors: [AUTHOR],
-        tags: metadata.tags,
-      },
-      twitter: {
-        card: "summary_large_image",
-        title: metadata.title,
-        description: metadata.description,
-        creator: "@WtsSeanBuilding",
-      },
-    };
+    return buildPostMetadata({ slug, ...metadata });
   } catch {
     return {};
   }
 }
 
-export default async function BlogPostPage(
-  { params }: { params: Promise<{ slug: string }> },
-) {
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
 
   let Component: Awaited<ReturnType<typeof getPost>>["Component"];
@@ -58,26 +47,29 @@ export default async function BlogPostPage(
     notFound();
   }
 
-  const url = `${SITE_URL}/blog/${slug}`;
-  const articleJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: metadata.title,
-    description: metadata.description,
-    datePublished: metadata.date,
-    dateModified: metadata.date,
-    author: { "@type": "Person", name: AUTHOR, url: SITE_URL },
-    mainEntityOfPage: url,
-    url,
-    keywords: metadata.tags?.join(", "),
-  };
+  const postWithSlug = { slug, ...metadata };
+
+  const jsonLdScripts: unknown[] = [
+    buildArticleSchema(postWithSlug),
+    buildBreadcrumbSchema([
+      { name: "Home", url: SITE_URL },
+      { name: "Blog", url: `${SITE_URL}/blog` },
+      { name: metadata.title, url: `${SITE_URL}/blog/${slug}` },
+    ]),
+  ];
+  if (metadata.faq && metadata.faq.length > 0) {
+    jsonLdScripts.push(buildFaqSchema(metadata.faq));
+  }
 
   return (
     <div className="flex flex-col flex-1 items-center bg-background">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
+      {jsonLdScripts.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Header />
       <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
         <Link
@@ -104,6 +96,26 @@ export default async function BlogPostPage(
         <article>
           <Component />
         </article>
+
+        {metadata.faq && metadata.faq.length > 0 && (
+          <section className="mt-20 pt-10 border-t border-border" aria-label="FAQ">
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-8">
+              FAQ
+            </h2>
+            <div className="space-y-8">
+              {metadata.faq.map((item, i) => (
+                <div key={i}>
+                  <h3 className="text-base font-semibold text-foreground">
+                    {item.question}
+                  </h3>
+                  <p className="mt-2 text-base leading-7 text-foreground/80">
+                    {item.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <footer className="mt-20 pt-8 border-t border-border text-xs text-muted">
           Sean Yu &copy; {new Date().getFullYear()}

@@ -53,6 +53,25 @@ export default config({
             "When checked, the post is hidden from the blog index and sitemap.",
           defaultValue: false,
         }),
+        faq: fields.array(
+          fields.object({
+            question: fields.text({
+              label: "Question",
+              validation: { length: { min: 1 } },
+            }),
+            answer: fields.text({
+              label: "Answer",
+              multiline: true,
+              validation: { length: { min: 1 } },
+            }),
+          }),
+          {
+            label: "FAQ",
+            description:
+              "Optional. When present, the post page emits FAQPage JSON-LD — big GEO/SEO value (LLMs and Google love citing FAQs).",
+            itemLabel: (props) => props.fields.question.value || "New question",
+          },
+        ),
         content: fields.mdx({
           label: "Content",
           options: {

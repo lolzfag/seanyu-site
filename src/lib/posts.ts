@@ -2,12 +2,18 @@ import fs from "node:fs";
 import path from "node:path";
 import type { ComponentType } from "react";
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type PostMetadata = {
   title: string;
   description: string;
   date: string; // ISO date string, e.g. "2026-04-16"
   draft?: boolean;
   tags?: string[];
+  faq?: FaqItem[];
 };
 
 export type Post = PostMetadata & { slug: string };
@@ -36,7 +42,7 @@ export async function getAllPosts(): Promise<Post[]> {
   const slugs = readSlugs();
   const posts = await Promise.all(
     slugs.map(async (slug) => {
-      const mod = await import(`@/content/blog/${slug}.mdx`);
+      const mod = await import(`../content/blog/${slug}.mdx`);
       const frontmatter = mod.frontmatter as Partial<PostMetadata> | undefined;
       if (!frontmatter || !frontmatter.title) {
         throw new Error(
@@ -50,6 +56,7 @@ export async function getAllPosts(): Promise<Post[]> {
         date: normalizeDate(frontmatter.date),
         tags: frontmatter.tags ?? [],
         draft: frontmatter.draft ?? false,
+        faq: frontmatter.faq ?? [],
       } satisfies Post;
     }),
   );
@@ -64,7 +71,7 @@ export async function getPost(slug: string): Promise<{
   Component: ComponentType;
   metadata: PostMetadata;
 }> {
-  const mod = await import(`@/content/blog/${slug}.mdx`);
+  const mod = await import(`../content/blog/${slug}.mdx`);
   const frontmatter = mod.frontmatter as Partial<PostMetadata>;
   return {
     Component: mod.default,
@@ -74,6 +81,7 @@ export async function getPost(slug: string): Promise<{
       date: normalizeDate(frontmatter.date),
       tags: frontmatter.tags ?? [],
       draft: frontmatter.draft ?? false,
+      faq: frontmatter.faq ?? [],
     },
   };
 }

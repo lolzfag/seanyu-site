@@ -1,28 +1,45 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getAllPosts, formatDate } from "@/lib/posts";
 import { SITE_URL } from "@/lib/site";
+import { buildPageMetadata } from "@/lib/metadata";
+import {
+  buildBreadcrumbSchema,
+  buildCollectionPageSchema,
+} from "@/lib/schema";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Blog — Sean Yu",
   description:
     "Essays on building Gingercontrol and Peony, SaaS GTM, venture capital, and generative engine optimization.",
-  alternates: { canonical: `${SITE_URL}/blog` },
-  openGraph: {
-    title: "Blog — Sean Yu",
-    description:
-      "Essays on building, investing, SaaS GTM, and generative engine optimization.",
-    type: "website",
-    url: `${SITE_URL}/blog`,
-  },
-};
+  path: "/blog",
+});
 
 export default async function BlogIndexPage() {
   const posts = await getAllPosts();
 
+  const jsonLdScripts = [
+    buildCollectionPageSchema({
+      name: "Sean Yu — Writing",
+      description:
+        "Essays on building, investing, and the things I'm learning along the way.",
+      url: `${SITE_URL}/blog`,
+    }),
+    buildBreadcrumbSchema([
+      { name: "Home", url: SITE_URL },
+      { name: "Blog", url: `${SITE_URL}/blog` },
+    ]),
+  ];
+
   return (
     <div className="flex flex-col flex-1 items-center bg-background">
+      {jsonLdScripts.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Header />
       <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
         <header className="mb-16">
@@ -41,7 +58,10 @@ export default async function BlogIndexPage() {
           ) : (
             <ul className="space-y-10">
               {posts.map((post) => (
-                <li key={post.slug} className="border-b border-border pb-10 last:border-b-0">
+                <li
+                  key={post.slug}
+                  className="border-b border-border pb-10 last:border-b-0"
+                >
                   <article>
                     <time
                       dateTime={post.date}
