@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -292,6 +293,12 @@ export default function Home() {
             Connect
           </h2>
           <div className="flex flex-wrap gap-3 text-sm">
+            <Link
+              href="/blog"
+              className="inline-flex items-center rounded-md border border-border px-3 py-1.5 text-foreground/80 hover:bg-foreground/5 transition-colors"
+            >
+              Writing
+            </Link>
             <SocialLink
               href="https://www.linkedin.com/in/sean-yu-98839a180/"
               label="LinkedIn"

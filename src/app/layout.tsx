@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -8,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Sean Yu — Founder, Investor, Operator",
   description:
     "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
@@ -16,8 +18,7 @@ export const metadata: Metadata = {
     description:
       "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
     type: "website",
-    // TODO: Uncomment once domain is live
-    // url: "https://seanyu.com",
+    url: SITE_URL,
     images: [{ url: "/sean.jpeg", width: 400, height: 400, alt: "Sean Yu" }],
   },
   twitter: {
@@ -27,16 +28,13 @@ export const metadata: Metadata = {
       "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London.",
     creator: "@WtsSeanBuilding",
   },
-  // TODO: Uncomment once domain is live
-  // metadataBase: new URL("https://seanyu.com"),
 };
 
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Sean Yu",
-  // TODO: Add your domain
-  // url: "https://seanyu.com",
+  url: SITE_URL,
   image: "/sean.jpeg",
   email: ["sean@peony.ink", "sean@gingercontrol.com"],
   jobTitle: "Co-founder",
