@@ -1,6 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { ComponentType } from "react";
+import type { ReactElement } from "react";
+import matter from "gray-matter";
+import { compileMDX } from "next-mdx-remote/rsc";
+import { useMDXComponents } from "@/mdx-components";
 
 export type FaqItem = {
   question: string;
@@ -20,7 +23,13 @@ export type Post = PostMetadata & { slug: string };
 
 const POSTS_DIR = path.join(process.cwd(), "src/content/blog");
 
-function readSlugs(): string[] {
+function normalizeDate(value: unknown): string {
+  // YAML dates sometimes come through as Date objects; normalize to ISO yyyy-mm-dd.
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return String(value ?? "");
+}
+
+export function getAllSlugs(): string[] {
   if (!fs.existsSync(POSTS_DIR)) return [];
   return fs
     .readdirSync(POSTS_DIR)
@@ -28,38 +37,41 @@ function readSlugs(): string[] {
     .map((f) => f.replace(/\.mdx$/, ""));
 }
 
-export function getAllSlugs(): string[] {
-  return readSlugs();
+function readFrontmatter(slug: string): Partial<PostMetadata> {
+  const filePath = path.join(POSTS_DIR, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Post not found: ${slug}`);
+  }
+  const source = fs.readFileSync(filePath, "utf-8");
+  const { data } = matter(source);
+  return data as Partial<PostMetadata>;
 }
 
-function normalizeDate(value: unknown): string {
-  // YAML dates sometimes come through as Date objects; normalize to ISO yyyy-mm-dd.
-  if (value instanceof Date) return value.toISOString().slice(0, 10);
-  return String(value ?? "");
+// Frontmatter-only read, used by the blog index and OG image routes
+// (no MDX compilation — fast and cheap).
+export function getPostMetadata(slug: string): PostMetadata {
+  const fm = readFrontmatter(slug);
+  if (!fm.title) {
+    throw new Error(
+      `Missing frontmatter.title in src/content/blog/${slug}.mdx`,
+    );
+  }
+  return {
+    title: fm.title,
+    description: fm.description ?? "",
+    date: normalizeDate(fm.date),
+    tags: fm.tags ?? [],
+    draft: fm.draft ?? false,
+    faq: fm.faq ?? [],
+  };
 }
 
 export async function getAllPosts(): Promise<Post[]> {
-  const slugs = readSlugs();
-  const posts = await Promise.all(
-    slugs.map(async (slug) => {
-      const mod = await import(`../content/blog/${slug}.mdx`);
-      const frontmatter = mod.frontmatter as Partial<PostMetadata> | undefined;
-      if (!frontmatter || !frontmatter.title) {
-        throw new Error(
-          `Missing or invalid YAML frontmatter in src/content/blog/${slug}.mdx`,
-        );
-      }
-      return {
-        slug,
-        title: frontmatter.title,
-        description: frontmatter.description ?? "",
-        date: normalizeDate(frontmatter.date),
-        tags: frontmatter.tags ?? [],
-        draft: frontmatter.draft ?? false,
-        faq: frontmatter.faq ?? [],
-      } satisfies Post;
-    }),
-  );
+  const slugs = getAllSlugs();
+  const posts = slugs.map((slug) => ({
+    slug,
+    ...getPostMetadata(slug),
+  }));
   return posts
     .filter((p) => !p.draft)
     .sort(
@@ -67,18 +79,28 @@ export async function getAllPosts(): Promise<Post[]> {
     );
 }
 
+// Compiles the MDX body into a React element. Called per-post render.
 export async function getPost(slug: string): Promise<{
-  Component: ComponentType;
+  content: ReactElement;
   metadata: PostMetadata;
 }> {
-  const mod = await import(`../content/blog/${slug}.mdx`);
-  const frontmatter = mod.frontmatter as Partial<PostMetadata>;
+  const filePath = path.join(POSTS_DIR, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Post not found: ${slug}`);
+  }
+  const source = fs.readFileSync(filePath, "utf-8");
+  const components = useMDXComponents();
+  const { content, frontmatter } = await compileMDX<Partial<PostMetadata>>({
+    source,
+    options: { parseFrontmatter: true },
+    components,
+  });
   return {
-    Component: mod.default,
+    content,
     metadata: {
       title: frontmatter.title ?? slug,
       description: frontmatter.description ?? "",
-      date: normalizeDate(frontmatter.date),
+      date: normalizeDate(frontmatter.date as unknown),
       tags: frontmatter.tags ?? [],
       draft: frontmatter.draft ?? false,
       faq: frontmatter.faq ?? [],

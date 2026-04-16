@@ -37,11 +37,11 @@ export default async function BlogPostPage({
 }) {
   const { slug } = await params;
 
-  let Component: Awaited<ReturnType<typeof getPost>>["Component"];
+  let content: Awaited<ReturnType<typeof getPost>>["content"];
   let metadata: Awaited<ReturnType<typeof getPost>>["metadata"];
   try {
     const post = await getPost(slug);
-    Component = post.Component;
+    content = post.content;
     metadata = post.metadata;
   } catch {
     notFound();
@@ -93,9 +93,7 @@ export default async function BlogPostPage({
           )}
         </header>
 
-        <article>
-          <Component />
-        </article>
+        <article>{content}</article>
 
         {metadata.faq && metadata.faq.length > 0 && (
           <section className="mt-20 pt-10 border-t border-border" aria-label="FAQ">

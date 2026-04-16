@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { getPost, formatDate } from "@/lib/posts";
+import { getPostMetadata, formatDate } from "@/lib/posts";
 import { AUTHOR, SITE_URL } from "@/lib/site";
 
 export const alt = `Sean Yu — Blog post`;
@@ -14,7 +14,7 @@ export default async function Image({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const { metadata } = await getPost(slug);
+  const metadata = getPostMetadata(slug);
   const title = metadata.title ?? slug;
   const titleFontSize =
     title.length > 60 ? 60 : title.length > 40 ? 76 : 96;
