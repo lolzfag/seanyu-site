@@ -59,8 +59,12 @@ export default function Home() {
               <strong>Imperial Blockchain Society</strong>.
             </p>
             <p>
-              I started my career in M&amp;A at <strong>Nomura</strong>, then
-              moved to venture capital at{" "}
+              During my undergraduate years at Imperial I worked on{" "}
+              <strong>non-invasive brain–computer interfaces</strong> —
+              specifically around deep sleep patterns — at the{" "}
+              <strong>UK Dementia Research Institute</strong>. I also interned
+              at <strong>Jane Street</strong> and at <strong>Nomura</strong>.
+              After dropping out, I moved to venture capital at{" "}
               <strong>
                 <a
                   href="https://backed.vc"
@@ -70,8 +74,7 @@ export default function Home() {
                 </a>
               </strong>
               , where I evaluated EU and US startups across AI, Blockchain, and
-              Consumer. From there I
-              joined{" "}
+              Consumer — then joined{" "}
               <strong>
                 <a
                   href="https://targetglobal.vc"
@@ -80,7 +83,7 @@ export default function Home() {
                   Target Global
                 </a>
               </strong>{" "}
-              to work on growth equity, late-stage investments, and secondary
+              for growth equity, late-stage investments, and secondary
               transactions.
             </p>
             <p>
