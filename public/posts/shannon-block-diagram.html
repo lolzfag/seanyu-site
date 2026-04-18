@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shannon 1948 Communication System</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #FDFCFA;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: #2C2C2A;
+  }
+
+  .page {
+    width: 1600px;
+    padding: 60px 80px 70px;
+    background: #FDFCFA;
+  }
+
+  .eyebrow {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #888780;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.25;
+    color: #2C2C2A;
+    margin-bottom: 36px;
+  }
+
+  .title em {
+    font-style: italic;
+    color: #2C2C2A;
+  }
+
+  svg { display: block; width: 100%; height: auto; }
+
+  .caption {
+    margin-top: 28px;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #888780;
+    line-height: 1.5;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="eyebrow">A Mathematical Theory of Communication · Bell System Technical Journal · 1948</div>
+  <div class="title">Claude Shannon's <em>model of a communication system</em></div>
+
+  <svg viewBox="0 0 1440 470" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,8 L10,4 z" fill="#2C2C2A"/>
+      </marker>
+    </defs>
+
+    <!-- Top row: five main boxes -->
+    <g>
+      <!-- INFORMATION SOURCE -->
+      <rect x="0"    y="90" width="200" height="90" fill="#FDFCFA" stroke="#2C2C2A" stroke-width="1.6"/>
+      <text x="100" y="130" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">INFORMATION</text>
+      <text x="100" y="152" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">SOURCE</text>
+
+      <!-- TRANSMITTER -->
+      <rect x="330"  y="90" width="200" height="90" fill="#FDFCFA" stroke="#2C2C2A" stroke-width="1.6"/>
+      <text x="430" y="142" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">TRANSMITTER</text>
+
+      <!-- RECEIVER -->
+      <rect x="910"  y="90" width="200" height="90" fill="#FDFCFA" stroke="#2C2C2A" stroke-width="1.6"/>
+      <text x="1010" y="142" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">RECEIVER</text>
+
+      <!-- DESTINATION -->
+      <rect x="1240" y="90" width="200" height="90" fill="#FDFCFA" stroke="#2C2C2A" stroke-width="1.6"/>
+      <text x="1340" y="142" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">DESTINATION</text>
+
+      <!-- NOISE SOURCE -->
+      <rect x="620"  y="330" width="200" height="90" fill="#FDFCFA" stroke="#2C2C2A" stroke-width="1.6"/>
+      <text x="720" y="370" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">NOISE</text>
+      <text x="720" y="392" font-family="DM Sans" font-size="13" font-weight="600" letter-spacing="1.4" fill="#2C2C2A" text-anchor="middle">SOURCE</text>
+    </g>
+
+    <!-- Arrows between boxes -->
+    <g fill="none" stroke="#2C2C2A" stroke-width="1.6">
+      <line x1="200"  y1="135" x2="318"  y2="135" marker-end="url(#arrow)"/>
+      <line x1="530"  y1="135" x2="898"  y2="135" marker-end="url(#arrow)"/>
+      <line x1="1110" y1="135" x2="1228" y2="135" marker-end="url(#arrow)"/>
+      <!-- Noise up to the signal line -->
+      <line x1="720"  y1="330" x2="720"  y2="144" marker-end="url(#arrow)"/>
+    </g>
+
+    <!-- Arrow labels (italic serif, Shannon's original nomenclature) -->
+    <g font-family="Instrument Serif, serif" font-style="italic" font-size="18" fill="#2C2C2A" text-anchor="middle">
+      <text x="259"  y="120">message</text>
+      <text x="620"  y="120">signal</text>
+      <text x="820"  y="120">received signal</text>
+      <text x="1169" y="120">message</text>
+    </g>
+
+    <!-- "CHANNEL" bracket beneath the transmitter-receiver line -->
+    <g fill="none" stroke="#B4B2A9" stroke-width="1">
+      <path d="M 540 220 L 540 236 L 900 236 L 900 220"/>
+    </g>
+    <text x="720" y="264" font-family="DM Sans" font-size="12" font-weight="600" letter-spacing="2" fill="#888780" text-anchor="middle">CHANNEL</text>
+
+  </svg>
+
+  <div class="caption">
+    The packaging view of communication: a message is encoded, travels through a channel (with noise),<br/>
+    and is decoded into a message again. The essay above argues this picture is too clean.
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Same space, same phenomenon, different substrate</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #FDFCFA;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: #2C2C2A;
+  }
+  .page {
+    width: 1600px;
+    padding: 60px 80px 70px;
+    background: #FDFCFA;
+  }
+  .eyebrow {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #888780;
+    margin-bottom: 10px;
+  }
+  .title {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.25;
+    color: #2C2C2A;
+    margin-bottom: 28px;
+  }
+  .title em { font-style: italic; }
+  svg { display: block; width: 100%; height: auto; }
+  .caption {
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #888780;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="eyebrow">THE WRAPPER AS TRAINED MATRIX · 1921 → today</div>
+  <div class="title">The same space. The same phenomenon. <em>A different substrate.</em></div>
+
+  <svg id="scatter" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Axis frame (very subtle) -->
+    <rect x="40" y="30" width="1360" height="440" fill="none" stroke="#E8E6E0" stroke-width="1"/>
+
+    <!-- Axis labels -->
+    <text x="720"  y="495" font-family="DM Sans" font-size="11" letter-spacing="1.8" fill="#B4B2A9" text-anchor="middle">EMBEDDING DIMENSION 1</text>
+    <text x="22"   y="250" font-family="DM Sans" font-size="11" letter-spacing="1.8" fill="#B4B2A9" text-anchor="middle" transform="rotate(-90, 22, 250)">EMBEDDING DIMENSION 2</text>
+
+    <g id="dots"><!-- circles injected by the script below --></g>
+
+    <!-- Cluster labels and pointers, drawn ABOVE all dots -->
+    <g font-family="DM Sans" font-size="13" font-weight="600" fill="#2C2C2A">
+      <!-- Wittgenstein -->
+      <line x1="220" y1="95"  x2="275" y2="130" stroke="#2C2C2A" stroke-width="1"/>
+      <text x="215" y="88"  text-anchor="end">Wittgenstein, 1921</text>
+      <!-- Shannon -->
+      <line x1="1040" y1="200" x2="985" y2="238" stroke="#2C2C2A" stroke-width="1"/>
+      <text x="1048" y="193" text-anchor="start">Shannon, 1948</text>
+      <!-- Kuhn -->
+      <line x1="400" y1="420" x2="450" y2="380" stroke="#2C2C2A" stroke-width="1"/>
+      <text x="395" y="430" text-anchor="end">Kuhn, 1962</text>
+    </g>
+
+    <!-- LLM cloud label, inside the diffuse cloud -->
+    <g font-family="Instrument Serif, serif" font-style="italic" fill="#085041" opacity="0.9">
+      <text x="800" y="100" font-size="22">a language model</text>
+      <text x="800" y="128" font-size="15" fill="#888780">trained on all of the above</text>
+    </g>
+
+  </svg>
+
+  <script>
+    (function() {
+      var seed = 7;
+      function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
+      function gauss() {
+        var u = Math.max(rnd(), 1e-9), v = rnd();
+        return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+      }
+
+      var dots = document.getElementById('dots');
+      var xmlns = 'http://www.w3.org/2000/svg';
+
+      // Order matters: diffuse LLM cloud first (behind), tight clusters on top.
+      var clusters = [
+        { cx: 680, cy: 250, n: 180, sx: 280, sy: 135, color: '#085041', op: 0.18, r: 2.6 }, // LLM
+        { cx: 300, cy: 150, n: 22,  sx: 32,  sy: 22,  color: '#3C3489', op: 0.9,  r: 3.2 }, // Wittgenstein
+        { cx: 960, cy: 270, n: 22,  sx: 34,  sy: 24,  color: '#993C1D', op: 0.9,  r: 3.2 }, // Shannon
+        { cx: 480, cy: 360, n: 22,  sx: 30,  sy: 22,  color: '#7A5A1D', op: 0.9,  r: 3.2 }  // Kuhn
+      ];
+
+      clusters.forEach(function(c) {
+        for (var i = 0; i < c.n; i++) {
+          var x = c.cx + gauss() * c.sx;
+          var y = c.cy + gauss() * c.sy;
+          // Clamp to plot area
+          x = Math.max(50, Math.min(1390, x));
+          y = Math.max(40,  Math.min(460,  y));
+          var circ = document.createElementNS(xmlns, 'circle');
+          circ.setAttribute('cx', x.toFixed(1));
+          circ.setAttribute('cy', y.toFixed(1));
+          circ.setAttribute('r', c.r);
+          circ.setAttribute('fill', c.color);
+          circ.setAttribute('opacity', c.op);
+          dots.appendChild(circ);
+        }
+      });
+    })();
+  </script>
+
+  <div class="caption">
+    A language model is not a different kind of thing from a human wrapper. It is the same phenomenon —<br/>
+    a trained matrix mapping mindstream to words — implemented on silicon instead of wetware.
+  </div>
+
+</div>
+</body>
+</html>

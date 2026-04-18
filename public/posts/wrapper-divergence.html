@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wrapper divergence over time</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #FDFCFA;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: #2C2C2A;
+  }
+  .page {
+    width: 1600px;
+    padding: 60px 80px 70px;
+    background: #FDFCFA;
+  }
+  .eyebrow {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #888780;
+    margin-bottom: 10px;
+  }
+  .title {
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.25;
+    color: #2C2C2A;
+    margin-bottom: 28px;
+  }
+  .title em { font-style: italic; }
+  svg { display: block; width: 100%; height: auto; }
+  .caption {
+    margin-top: 26px;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #888780;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="eyebrow">The quiet engine of social rigidity</div>
+  <div class="title">How small wrapper differences compound <em>across decades</em></div>
+
+  <svg viewBox="0 0 1440 460" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- x-axis (time) -->
+    <line x1="90" y1="400" x2="1360" y2="400" stroke="#D3D1C7" stroke-width="1"/>
+
+    <!-- Axis ticks -->
+    <g stroke="#D3D1C7" stroke-width="1">
+      <line x1="120"  y1="400" x2="120"  y2="408"/>
+      <line x1="440"  y1="400" x2="440"  y2="408"/>
+      <line x1="760"  y1="400" x2="760"  y2="408"/>
+      <line x1="1080" y1="400" x2="1080" y2="408"/>
+      <line x1="1340" y1="400" x2="1340" y2="408"/>
+    </g>
+
+    <!-- Axis labels -->
+    <g font-family="DM Sans" font-size="12" fill="#888780" text-anchor="middle">
+      <text x="120"  y="428">shared origin</text>
+      <text x="440"  y="428">a decade in</text>
+      <text x="760"  y="428">two decades</text>
+      <text x="1080" y="428">one generation</text>
+      <text x="1340" y="428">two generations</text>
+    </g>
+
+    <!-- Left convergence cluster marker -->
+    <circle cx="120" cy="215" r="5" fill="#2C2C2A"/>
+
+    <!-- Five divergent threads. All start tightly clustered near (120, 215)
+         and drift apart at an accelerating rate. -->
+    <g fill="none" stroke-width="2.25" stroke-linecap="round">
+      <path d="M 120 212 C 360 210, 720 175, 1340 70"  stroke="#993C1D" opacity="0.85"/>
+      <path d="M 120 214 C 360 214, 720 200, 1340 150" stroke="#7A5A1D" opacity="0.85"/>
+      <path d="M 120 215 C 360 216, 720 220, 1340 220" stroke="#2C2C2A" opacity="0.9"/>
+      <path d="M 120 216 C 360 218, 720 245, 1340 300" stroke="#3C3489" opacity="0.85"/>
+      <path d="M 120 218 C 360 222, 720 270, 1340 370" stroke="#085041" opacity="0.85"/>
+    </g>
+
+    <!-- End-of-thread labels on the right -->
+    <g font-family="DM Sans" font-size="12" fill="#2C2C2A">
+      <text x="1350" y="74"  dominant-baseline="middle">a physicist</text>
+      <text x="1350" y="154" dominant-baseline="middle">a grandmother</text>
+      <text x="1350" y="224" dominant-baseline="middle">a lawyer</text>
+      <text x="1350" y="304" dominant-baseline="middle">a founder</text>
+      <text x="1350" y="374" dominant-baseline="middle">a child</text>
+    </g>
+
+    <!-- Left annotation -->
+    <g font-family="Instrument Serif, serif" font-style="italic" fill="#888780" font-size="15">
+      <text x="150" y="192">small initial</text>
+      <text x="150" y="212">differences</text>
+    </g>
+
+    <!-- Right annotation -->
+    <g font-family="Instrument Serif, serif" font-style="italic" fill="#888780" font-size="15" text-anchor="end">
+      <text x="1320" y="30">matrices no longer overlap</text>
+    </g>
+
+    <!-- Bracketing tick for divergence gap on the right -->
+    <g stroke="#B4B2A9" stroke-width="1" fill="none">
+      <path d="M 1296 72 L 1308 72 L 1308 368 L 1296 368"/>
+    </g>
+
+  </svg>
+
+  <div class="caption">
+    Two wrappers raised in the same semantic environment drift apart slowly at first, then catastrophically.<br/>
+    By the time the gap is obvious, the calibration cost of closing it already exceeds the benefit.
+  </div>
+
+</div>
+</body>
+</html>

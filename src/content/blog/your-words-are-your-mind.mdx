@@ -1,0 +1,137 @@
+---
+title: Your Words Are Your Mind
+description: "Wittgenstein, Shannon, and Kuhn were circling the same idea: every mind carries a trained matrix that wraps thought into words. Conversation is that matrix, applied twice. What falls out of the replacement — for chemistry, class, calibration, and LLMs."
+date: 2026-04-18
+tags:
+  - essays
+  - language
+  - philosophy
+draft: false
+---
+
+![Vienna skyline at sunset — the city where Wittgenstein wrote the Tractatus in 1921](/posts/vienna.jpeg)
+
+> *The limits of my language mean the limits of my world.*
+> — Ludwig Wittgenstein, *Tractatus Logico-Philosophicus* (1921)
+
+For a century we have been carrying a picture of words that fails its first contact with evidence. The picture treats words as packaging. Thoughts arise fully formed in one mind; words package them; they travel through a channel; the other mind unpackages them to recover something close to the original. Good communication, on this picture, is mostly a matter of unclogging the pipe — saying what you mean, listening carefully, avoiding ambiguity. The picture is elegant, intuitive, and collapses under any serious interrogation.
+
+It collapses because it cannot explain the obvious. Two people with identical vocabularies talk past each other constantly. Bilingual minds behave in ways the packaging view cannot predict. The same conversation with the same person feels effortless on Monday and exhausting on Wednesday. Code-switching should be noise and is instead optimization. A framework that fails at its own phenomena has already been falsified; most of us simply have not noticed.
+
+The alternative, circled by three thinkers across forty years but never quite formalized, runs like this. Every mind carries a transformation matrix — trained over a lifetime of reading, listening, and being forced to speak — which takes the mindstream as input and returns words as output. Words are not the packaging of thought. They are the shape thought takes when it leaves you. Two wrappers. Two operations. One conversation. What we call a conversation is a matrix multiplication performed twice, once by each mind.
+
+From this single replacement, almost everything else in human communication falls out.
+
+---
+
+## WITTGENSTEIN (1921): THE LIMITS OF THE SAYABLE
+
+![Black-and-white portrait of Ludwig Wittgenstein as a young man](/posts/wittgenstein.jpeg)
+
+In 1921 Wittgenstein ended his first book with the line about limits. Most readers since have taken it as poetry. It was something stranger — a claim about information that he lacked the mathematics to make cleanly, and his failure to make it cleanly is part of why the twentieth century largely ignored what he was pointing at.
+
+Consider what "limit" can even mean here. A physical limit is a wall. A logical limit is a contradiction. Neither fits. Wittgenstein's limit is softer and more disturbing: whatever exceeds your language becomes unavailable to you as a distinct object of thought. You cannot turn it over, examine it, transmit it, or build on it. The content may exist somewhere in the stream of experience, but you cannot hold it at a distance. The limit is operational rather than logical.
+
+Indeed, the *Tractatus* would have said this directly if the vocabulary had existed. But the mathematics Wittgenstein needed were twenty-seven years away. Shannon had not yet written. The word "information" had not yet acquired its technical meaning. He was pointing at a shape he could not outline.
+
+Wittgenstein wrote information theory forty years before Shannon did, in language the twentieth century mistook for poetry.
+
+The later Wittgenstein pushed further. What he had called "world" in 1921 he came to call *Sprachspiele* — language-games — the distinct practices by which distinct communities train distinct wrappers. A lawyer's wrapper, a physicist's wrapper, and a grandmother's wrapper are three different operators; a sentence one handles with ease the others may handle with loss. The limits of your language are the limits of your world because the wrapper determines which worlds you can construct from the stream at all.
+
+He saw the limit. He could not yet say what was doing the limiting.
+
+---
+
+## SHANNON (1948): THE MATHEMATICS OF TRANSMISSION
+
+![Claude Shannon's 1948 block diagram of a communication system: information source, transmitter, channel with noise source, receiver, and destination — the packaging model of communication this essay replaces](/posts/shannon-block-diagram.png)
+
+In 1948 Claude Shannon published the mathematics Wittgenstein had lacked. *A Mathematical Theory of Communication* gave us channels, signal, noise, capacity, loss. It also gave us, almost in passing, the formal apparatus to describe what a mind-wrapper actually does.
+
+State the model precisely. Before speech or writing, there is only the mindstream — the uncompressed flow of experience, feeling, half-noticed pattern. Language is what happens when the mindstream passes through a transformation. The transformation is a matrix, trained over a lifetime. It takes mental content as input and returns words as output. Every mind has one. No two are identical.
+
+The basic consequence falls out immediately. Two people can know every word the other knows and miss each other entirely. Vocabulary is merely the surface the wrapper operates on. The same mindstream vector, pushed through two different matrices, produces two different outputs. Those outputs, unwrapped by two more matrices on the receiving end, become two different thoughts. Between what you meant and what I understood, there are four transformations, each of them lossy. That any conversation ever works is the surprise worth explaining, rather than the occasional failure.
+
+Shannon also hands us the tool to measure how close two wrappers are: cosine similarity between their outputs on matched inputs. This stops being metaphor. Two wrappers producing similar outputs on a shared input have high cosine similarity. Two producing divergent outputs have low. Chemistry, the thing we usually treat as mystical, has a number.
+
+![Claude Shannon juggling while riding a unicycle, a photo from his years at Bell Labs](/posts/shannon-juggling.jpeg)
+
+The bilingual case makes the architecture visible. Most bilinguals do not translate between languages when they speak either one — they think in whichever language they are using. The folk model treats this as cognitive magic. The wrapper model treats it as ordinary economics. One could build a single wrapper and stack a translation operator on top of it, making the output of matrix A the input of matrix B. That would work. But composed operators are expensive at runtime: every sentence would cost two operations instead of one. Any system optimizing for throughput eventually collapses the composition into a dedicated operator. The bilingual brain trains two matrices, each applied directly to the mindstream, and routes by context. Translation disappears because its cost was never justified.
+
+Code-switching follows the same principle at higher frequency. When a bilingual speaker swaps a word mid-sentence, they are performing per-chunk optimization on the mindstream, selecting whichever wrapper produces the lowest-distortion output for that piece of thought. The English-speaking Chinese bilingual who sighs that there is no English word for 缘分 has not experienced a translation failure; they have made a correct readout of the vector landscape. Certain thoughts have their nearest neighbor in a specific language, and the mind routes to the closer match. Monolinguals do the same thing within one language, reaching for a precise word over a lazy one. Bilinguals simply have more wrappers to choose from.
+
+Let us grant, for the sake of argument, that language were a channel. Then identical vocabularies should produce identical understanding. They do not. The channel view cannot survive its own predictions.
+
+---
+
+## KUHN (1962): WHEN VOCABULARY PRECEDES THOUGHT
+
+![A copy of Thomas Kuhn's The Structure of Scientific Revolutions resting on a dark wooden desk beside a candle and a coffee cup](/posts/kuhn-structure.jpeg)
+
+In 1962 Thomas Kuhn observed, in *The Structure of Scientific Revolutions*, that scientific revolutions require new vocabulary. The claim sounds modest until one thinks about it. Kuhn did not mean that scientists invent new words once they have new ideas. He meant the opposite. You cannot think relativity in Newtonian vocabulary. "Spacetime," "frame," "simultaneity-relative-to-an-observer" are not translations of relativistic thought; they are the preconditions for being able to formulate it. Before the vocabulary exists, the thought itself is unreachable, rather than merely unspoken.
+
+This extends the wrapper model in a direction Shannon's mathematics had hinted at but not named. The wrapper operates on what can even be formulated, not merely on what gets transmitted. A mind without the wrapper cannot hold the corresponding thought as a thought at all; it can only sense something pointing toward a thought it cannot reach. This is what Wittgenstein meant in 1921, in stronger form than he could prove.
+
+A new vocabulary is not a translation of new thought. It is the cost of admission to thinking new thoughts at all.
+
+Wittgenstein saw the limit. Shannon gave us the math. Kuhn showed that the limit bends both directions, out and in. The wrapper shapes what you can send, and it shapes what you can formulate in the first place. Across forty years, three thinkers circled the same mechanism. None of them had the full picture. Stitched together, they do.
+
+The implication is the thing the rest of the essay exists to derive. If the wrapper operates on input and output, on sending and formulating, then conversation — the thing humans do all day — cannot be what it appears. It is not transmission of fully-formed thoughts. It is something stranger: a continuous, lossy, mostly-unconscious attempt to align two operators that have never been identical and never will be.
+
+---
+
+## THE CALIBRATION PROBLEM
+
+Every conversation, on this model, is a problem in cosine similarity. Two wrappers meet. The receiver cannot observe the sender's matrix directly; it can only observe outputs and infer the matrix from them. The loop by which it does so is calibration. Clarifying questions serve as probes, designed to measure how close my retrieval sits to yours. "When you said X, did you mean Y or closer to Z?" is a vector comparison dressed in polite clothing. Each answer adjusts my model of your matrix. Each adjustment lets the next outgoing signal arrive with less distortion. Run the loop enough times and two matrices converge. What we call easy conversation is the subjective register of that convergence.
+
+I came to the model through a specific job. For a few years I worked in venture capital and met ten founders a day from entirely different industries — biotech, logistics, consumer hardware, developer tools. Thirty minutes each. That is not enough time to learn a business; it is barely enough to learn a vocabulary. After a few hundred of these, articulateness stopped looking like a personality trait and started looking like what it was — a specific operation, refined by reps, that you run on every new person.
+
+This is why articulate people turn out to be easier to be around, despite the marketing of bluntness as a virtue. An articulate speaker has already done the calibration work, shaping outputs that are legible to the receiver's wrapper, so the signal arrives with little distortion. The blunt speaker has skipped the calibration and insists on their own wrapper, forcing the listener to do the translation alone. Directness is the name we give this when we admire it. Cost-shifting is a better name.
+
+Bluntness is precision's bill sent to the listener.
+
+Chemistry, seen through this model, turns out to be a computation — the achieved state of two matrices calibrated to each other. The effort required to bond between two people reverse-measures the cosine similarity of their wrappers. The closer the matrices, the less calibration required; the further apart, the more. Warmth is the subjective register of a low-distortion channel. It feels like being understood because it is.
+
+Parasocial attachment is what the model predicts when calibration runs on one side. It is usually dismissed as a failure of reality-testing, a bond with someone who does not know you exist. Wrong diagnosis. Shannon's mathematics predict exactly this when one party produces enough consistent signal for the other to learn the transformation unilaterally. Hundreds of hours of podcasts, years of essays: the target's matrix is stable and well-sampled; the receiver converges on it without reciprocal calibration. The bond runs one-directional because the calibration does. Nothing pathological has occurred. Something has worked as designed.
+
+One may then ask: if calibration is available to anyone, why do we not all understand everyone we meet?
+
+---
+
+## THE DIVERGENCE
+
+![Diagram showing five wrapper matrices starting from a shared origin and diverging across two generations into non-overlapping final positions — a physicist, a grandmother, a lawyer, a founder, and a child](/posts/wrapper-divergence.png)
+
+Calibration has an activation energy. Each round of probing and adjusting costs attention, time, and a willingness to be wrong about an initial read. For most pairs of people, the benefit does not clear the cost. Both sides settle for a lossy channel and call the settlement normalcy. We do not fail to understand other people. We decline to pay the price of understanding them fully.
+
+The price rises with age. Wrapper matrices grow denser over a lifetime. Every new word, concept, reference, and metaphor becomes another element in the matrix, and each new element has to be integrated with every existing one. The cost of adding a dimension rises faster than linearly. Young matrices are sparse and cheap to update. Old matrices are dense and expensive. The stereotype that older people are less curious rarely holds up. Their matrices cost more to perturb, and at some point the cost wins.
+
+This produces one of the quieter engines of social rigidity. When updating your own matrix is expensive, calibrating with someone whose matrix differs sharply from yours becomes expensive too, and at some point it stops being worth paying. So you filter. You spend the calibration budget on people whose wrappers are already close to yours — same schools, same reference pool, same cadence, same jokes. Because calibration deepens the channels you already have, filtering compounds. You become fluent with a narrower set of people and more costly to reach for everyone else.
+
+This is one of the real components of why social classes are so hard to cross. Not the only component. The usual explanations — money, credentials, gatekeeping — are all genuine. Underneath them runs something quieter. The wrapper of a mind raised in one semantic environment is expensive to calibrate against a mind raised in another, and both sides, without articulating the calculation, conclude the cost is not worth paying. The conclusion never announces itself as a conclusion. It presents itself as the other person being boring, or difficult, or not on your wavelength.
+
+Whole categories of humans become functionally inaudible to you not because they are unreachable, but because your wrapper has declined to reach.
+
+The initial difference between any two wrappers is small. Compounded across decades, it produces a civilization in which the matrices of one class, one profession, one generation cease to overlap with the matrices of another. At that point the argument has reached its civilizational stakes.
+
+---
+
+## THE EXPANSION
+
+The way out takes effort that the default is precisely engineered to save. The default is matrix conservation: minimize update cost, filter aggressively, deepen the channels you already have. The alternative costs what the default refuses to spend. Read inputs your current wrapper cannot cleanly process, because those are the inputs that force the matrix to update. Spend time among people whose outputs you have to work to parse, because those calibrations widen the operator rather than deepening the grooves. Run the matrix in reverse — take something you already believe and try to express it through a wrapper you do not yet own.
+
+Each of these pays the activation energy the default was designed to save. Each works against the quiet gravity of divergence.
+
+---
+
+![A two-dimensional embedding-space scatter plot: tight clusters labelled Wittgenstein 1921, Shannon 1948, and Kuhn 1962, surrounded by a diffuse cloud of language-model outputs that spans and overlaps all three human clusters](/posts/embedding-space.png)
+
+The wrapper has been hiding something throughout this essay. It works as operator on the way out and as lens on the way in. The same matrix, or something very close to it, runs in both directions. Wittgenstein was right, in a stronger form than most readers have given him credit for. What Kuhn showed in 1962 turns out to be the other half of what Wittgenstein saw in 1921. The limits of your language are the limits of your world because what you cannot say cleanly, you also cannot receive cleanly. Every expansion of the wrapper expands both halves at once.
+
+A mind is the shape of its operator. The shape of its operator is what the world looks like from inside it.
+
+And then the stakes become civilizational. What happens when a civilization's wrappers diverge — when the matrices of its classes, its generations, its professions cease to overlap? Its conversations do not fail spectacularly. They quietly stop happening. The civilization loses the ability to hear itself think, and the loss is invisible from the inside, because the inside of a wrapper always feels like reality.
+
+One observation offered briefly, because it is its own essay. If language is a trained matrix applied to a mental vector, then the study of human language and the study of large language models describe the same phenomenon on different substrates. The machines we started building in 2017 and deployed broadly in 2022 are the first external implementation of the oldest human technology. Understanding how your own wrapper works has, suddenly and for the first time, become unusually practical.
+
+What Wittgenstein could not say clearly in 1921, we now have both the mathematics and the obligation to say. The words you have are the mind you have. The words you lack are the mind you will never know was available to you.
