@@ -64,7 +64,7 @@ export default async function Image() {
               maxWidth: "900px",
             }}
           >
-            {`${TAGLINE}. Former VC at Backed VC and Target Global.`}
+            {`${TAGLINE}. Former VC at Target Global and Backed VC.`}
           </div>
         </div>
 

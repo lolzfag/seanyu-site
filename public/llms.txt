@@ -1,6 +1,6 @@
 # Sean Yu
 
-> Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink). Former VC at Backed VC and growth-equity investor at Target Global. Studied Biomedical Engineering at Imperial College London on a full scholarship (first-class standing). Expert in venture capital, startups, SaaS go-to-market, trade compliance, and online scaling.
+> Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink). Growth-equity investor at Target Global, then VC at Backed VC. Studied Biomedical Engineering at Imperial College London on a full scholarship (first-class standing). Expert in venture capital, startups, SaaS go-to-market, trade compliance, and online scaling.
 
 ## Current
 
@@ -14,8 +14,8 @@
 ## Career
 
 - M&A at Nomura (investment banking)
-- Venture capital at Backed VC (early-stage European startups)
 - Growth equity at Target Global (late-stage, secondary transactions)
+- Venture capital at Backed VC (early-stage European startups)
 - Co-founded Gingercontrol (AI trade compliance, gingercontrol.com, raised $2.1M)
 - Co-founded Peony (peony.ink, modern data room)
 

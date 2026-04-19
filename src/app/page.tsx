@@ -36,11 +36,11 @@ export default function Home() {
               Peony
             </a>
             . Former VC at{" "}
-            <strong className="text-foreground font-medium">Backed VC</strong>{" "}
-            and{" "}
             <strong className="text-foreground font-medium">
               Target Global
-            </strong>
+            </strong>{" "}
+            and{" "}
+            <strong className="text-foreground font-medium">Backed VC</strong>
             . Imperial College London.
           </p>
         </header>
@@ -67,16 +67,6 @@ export default function Home() {
               After dropping out, I moved to venture capital at{" "}
               <strong>
                 <a
-                  href="https://backed.vc"
-                  className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
-                >
-                  Backed VC
-                </a>
-              </strong>
-              , where I evaluated EU and US startups across AI, Blockchain, and
-              Consumer — then joined{" "}
-              <strong>
-                <a
                   href="https://targetglobal.vc"
                   className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
                 >
@@ -84,7 +74,17 @@ export default function Home() {
                 </a>
               </strong>{" "}
               for growth equity, late-stage investments, and secondary
-              transactions.
+              transactions — then joined{" "}
+              <strong>
+                <a
+                  href="https://backed.vc"
+                  className="underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
+                >
+                  Backed VC
+                </a>
+              </strong>
+              , where I evaluated EU and US startups across AI, Blockchain, and
+              Consumer.
             </p>
             <p>
               I co-founded{" "}
@@ -157,6 +157,10 @@ export default function Home() {
             <Belief
               title="Build authority before you need it"
               body="The time to establish yourself as an expert is before your next venture, not during it. Content, community, and public thinking compound. Every founder should be writing."
+            />
+            <Belief
+              title="The size of your semantic search space predicts emotional control and bonding"
+              body="The more concepts, metaphors, and distinctions a person can readily reach for, the better they can name what they feel before it runs them — and the more precisely they can meet others where they are. You can't regulate what you can't label, and you can't bond across a gap you can't map. Vocabulary isn't decoration; it's the substrate of self-regulation and intimacy."
             />
           </div>
         </section>

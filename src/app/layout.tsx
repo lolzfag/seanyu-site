@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Sean Yu — Founder, Investor, Operator",
   description:
-    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams). Former VC at Backed VC and growth-equity investor at Target Global. Imperial College London, Biomedical Engineering.",
+    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams). Growth-equity investor at Target Global, then VC at Backed VC. Imperial College London, Biomedical Engineering.",
   robots: robotsMetadata,
   openGraph: {
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
+      "Co-founder of Gingercontrol & Peony. Former VC at Target Global and Backed VC. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
     type: "website",
     url: SITE_URL,
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sean Yu — Founder, Investor, Operator",
     description:
-      "Co-founder of Gingercontrol & Peony. Former VC at Backed VC and Target Global. Imperial College London.",
+      "Co-founder of Gingercontrol & Peony. Former VC at Target Global and Backed VC. Imperial College London.",
     creator: "@WtsSeanBuilding",
   },
 };
