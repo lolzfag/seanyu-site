@@ -71,12 +71,12 @@ export default async function BlogPostPage({
         />
       ))}
       <Header />
-      <main className="w-full max-w-2xl px-6 py-20 sm:py-32">
+      <main className="w-full max-w-2xl px-6 pt-10 sm:pt-16 pb-20 sm:pb-32">
         <Link
           href="/blog"
           className="text-sm text-muted underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"
         >
-          ← All posts
+          ← Other writings
         </Link>
 
         <header className="mt-8 mb-12">
