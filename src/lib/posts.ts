@@ -79,6 +79,13 @@ export async function getAllPosts(): Promise<Post[]> {
     );
 }
 
+// Keystatic's MDX editor round-trips through a rich-text document model
+// and escapes existing `![alt](url)` as `!\[alt]\(url)` on save, which
+// renders as literal text. Undo that before handing the source to MDX.
+function unescapeMdxImages(source: string): string {
+  return source.replace(/!\\(\[[^\]]*\])\\(\([^)]+\))/g, "!$1$2");
+}
+
 // Compiles the MDX body into a React element. Called per-post render.
 export async function getPost(slug: string): Promise<{
   content: ReactElement;
@@ -88,7 +95,7 @@ export async function getPost(slug: string): Promise<{
   if (!fs.existsSync(filePath)) {
     throw new Error(`Post not found: ${slug}`);
   }
-  const source = fs.readFileSync(filePath, "utf-8");
+  const source = unescapeMdxImages(fs.readFileSync(filePath, "utf-8"));
   const components = useMDXComponents();
   const { content, frontmatter } = await compileMDX<Partial<PostMetadata>>({
     source,
