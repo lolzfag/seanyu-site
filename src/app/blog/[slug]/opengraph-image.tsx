@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { ImageResponse } from "next/og";
 import { getPostMetadata, formatDate } from "@/lib/posts";
 import { AUTHOR, SITE_URL } from "@/lib/site";
@@ -6,8 +8,35 @@ export const alt = `Sean Yu — Blog post`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-// Dynamic OG image rendered per blog post. Title + date + branding.
-// Scales title font size down if the title is long, so it always fits.
+const POSTS_DIR = path.join(process.cwd(), "src/content/blog");
+const PUBLIC_DIR = path.join(process.cwd(), "public");
+
+// Pulls the first ![alt](url) from the MDX body, ignoring escaped `!\[`.
+function firstBodyImage(slug: string): { url: string; alt: string } | null {
+  const source = fs.readFileSync(path.join(POSTS_DIR, `${slug}.mdx`), "utf-8");
+  const match = source.match(/(?<!\\)!\[([^\]]*)\]\(([^)]+)\)/);
+  if (!match) return null;
+  return { alt: match[1], url: decodeURIComponent(match[2]) };
+}
+
+function loadLocalImageAsDataUri(publicPath: string): string | null {
+  if (!publicPath.startsWith("/")) return null;
+  const filePath = path.join(PUBLIC_DIR, publicPath);
+  if (!fs.existsSync(filePath)) return null;
+  const ext = path.extname(filePath).toLowerCase();
+  const mime =
+    ext === ".png" ? "image/png"
+    : ext === ".jpg" || ext === ".jpeg" ? "image/jpeg"
+    : ext === ".webp" ? "image/webp"
+    : null;
+  if (!mime) return null;
+  const base64 = fs.readFileSync(filePath).toString("base64");
+  return `data:${mime};base64,${base64}`;
+}
+
+// Dynamic OG image rendered per blog post.
+// Uses the post's first body image as the hero if available,
+// otherwise falls back to a branded text card with title + date.
 export default async function Image({
   params,
 }: {
@@ -16,6 +45,39 @@ export default async function Image({
   const { slug } = await params;
   const metadata = getPostMetadata(slug);
   const title = metadata.title ?? slug;
+
+  const hero = firstBodyImage(slug);
+  const heroDataUri = hero ? loadLocalImageAsDataUri(hero.url) : null;
+
+  if (heroDataUri) {
+    return new ImageResponse(
+      (
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "#fafafa",
+          }}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={heroDataUri}
+            alt={hero!.alt}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+            }}
+          />
+        </div>
+      ),
+      { ...size },
+    );
+  }
+
   const titleFontSize =
     title.length > 60 ? 60 : title.length > 40 ? 76 : 96;
 
