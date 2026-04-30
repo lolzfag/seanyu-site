@@ -113,8 +113,8 @@ export default function Home() {
               </a>{" "}
               to make data rooms accessible to every team — not just enterprises
               paying $60,000 a year. We now serve{" "}
-              <strong>3,400+ teams</strong> managing{" "}
-              <strong>$4.5B+ in client assets</strong>, at 99% lower cost than
+              <strong>4,100+ teams</strong> managing{" "}
+              <strong>$4.8B+ in client assets</strong>, at 99% lower cost than
               incumbents like Datasite. Backed VC, where I cut my teeth as an
               investor, is now one of our investors — a full-circle moment.
             </p>
@@ -273,7 +273,7 @@ export default function Home() {
               </p>
               <ul className="mt-4 space-y-2 text-sm text-foreground/80">
                 <li>
-                  <strong>3,400+ teams</strong>, $4.5B+ in client assets
+                  <strong>4,100+ teams</strong>, $4.8B+ in client assets
                 </li>
                 <li>
                   <strong>99.96% uptime</strong> since launch

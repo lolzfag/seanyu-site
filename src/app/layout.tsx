@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Sean Yu — Founder, Investor, Operator",
   description:
-    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams). Growth-equity investor at Target Global, then VC at Backed VC. Imperial College London, Biomedical Engineering.",
+    "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 4,100+ teams). Growth-equity investor at Target Global, then VC at Backed VC. Imperial College London, Biomedical Engineering.",
   robots: robotsMetadata,
   openGraph: {
     title: "Sean Yu — Founder, Investor, Operator",

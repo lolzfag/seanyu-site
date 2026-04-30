@@ -92,7 +92,7 @@ export function buildPersonSchema() {
         name: "Peony",
         url: "https://peony.ink",
         description:
-          "Modern data room platform for secure document sharing. Used by 3,400+ teams managing $4.5B+ in client assets.",
+          "Modern data room platform for secure document sharing. Used by 4,100+ teams managing $4.8B+ in client assets.",
       },
     ],
     alumniOf: [
@@ -140,6 +140,6 @@ export function buildPersonSchema() {
       "https://peony.ink/about",
     ],
     description:
-      "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 3,400+ teams, $4.5B+ in assets). Growth-equity investor at Target Global covering late-stage and secondary transactions, then VC at Backed VC evaluating early-stage European startups. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
+      "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 4,100+ teams, $4.8B+ in assets). Growth-equity investor at Target Global covering late-stage and secondary transactions, then VC at Backed VC evaluating early-stage European startups. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $2.1M for Gingercontrol. Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
   };
 }
