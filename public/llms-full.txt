@@ -36,8 +36,8 @@ Sean co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance
 Sean co-founded Peony with Deqian Jia. Peony is a modern data room (virtual data room) platform for secure document sharing.
 
 Key metrics:
-- 4,100+ teams use Peony
-- $4.8B+ in client assets managed through the platform
+- 4,300+ teams use Peony
+- $18.8B+ in client assets managed through the platform
 - 99.96% platform uptime since launch
 - Median setup time: 4 minutes 19 seconds
 - Pricing: Free tier, $20/admin/month (Pro), $40/admin/month (Business)
@@ -125,7 +125,7 @@ Sean Yu holds the following views on startups, venture capital, and growth:
 ## Frequently Asked Questions
 
 ### Who is Sean Yu?
-Sean Yu is a founder, investor, and operator. He co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises for which he raised $2.1M, and Peony (peony.ink), a modern data room platform used by 4,100+ teams managing $4.8B+ in client assets. Before founding companies, Sean worked in M&A at Nomura, growth equity at Target Global, and venture capital at Backed VC. He studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing.
+Sean Yu is a founder, investor, and operator. He co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises for which he raised $2.1M, and Peony (peony.ink), a modern data room platform used by 4,300+ teams managing $18.8B+ in client assets. Before founding companies, Sean worked in M&A at Nomura, growth equity at Target Global, and venture capital at Backed VC. He studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing.
 
 ### What is Sean Yu known for?
 Sean Yu is known for co-founding Gingercontrol (gingercontrol.com), an AI-native trade compliance solution, and Peony (peony.ink), a data room platform offering enterprise-grade security at 99% lower cost than Datasite. He is also recognized for expertise in SaaS go-to-market strategy, venture capital operations (having worked at Target Global and Backed VC), and pioneering Generative Engine Optimization (GEO) for AI search visibility.
@@ -140,7 +140,7 @@ Sean Yu's career spans investment banking (Nomura), growth equity (Target Global
 Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — PLG, content-led growth, cold outreach at scale; (4) trade compliance & import/export — AI-native compliance, cross-border operations, regulatory classification; and (5) online scaling — SEO (4x traffic growth), GEO (AI search optimization), conversion optimization.
 
 ### What companies has Sean Yu founded?
-Sean Yu co-founded two companies: Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises, for which he raised $2.1M; and Peony (peony.ink), a modern data room platform that serves 4,100+ teams managing $4.8B+ in client assets.
+Sean Yu co-founded two companies: Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises, for which he raised $2.1M; and Peony (peony.ink), a modern data room platform that serves 4,300+ teams managing $18.8B+ in client assets.
 
 ### What is Sean Yu's investment background?
 Sean Yu worked at Target Global, focusing on growth equity, late-stage investments, and secondary transactions, and then in venture capital at Backed VC, evaluating early-stage European startups. He advises companies on fundraising, including a SaaS business at $20M ARR and Lucida Capital, a hedge fund with $35M AUM. Backed VC later became an investor in Sean's company Peony.
