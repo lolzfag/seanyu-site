@@ -135,6 +135,12 @@ export default function Home() {
           </h2>
           <div className="space-y-6">
             <Belief
+              title="We live in a simulation — the world is predictable, given enough data and compute"
+              body="Reality is information processing. What feels like chaos is missing data and missing compute, not metaphysics. Luck is just an expression of compute overflow — outcomes the universe computed that exceeded your local model's ability to predict, surfacing as 'fortune' or 'bad break.' As models scale and the world is increasingly instrumented, more of life's noise resolves into signal. It's the lens behind everything I build."
+              quote="As authority shifts from humans to algorithms, we may no longer see the world as the playground of autonomous individuals struggling to make the right choices. Instead, we might perceive the entire universe as a flow of data, see organisms as little more than biochemical algorithms, and believe that humanity's cosmic vocation is to create an all-encompassing data-processing system – and then merge into it. Already today we are becoming tiny chips inside a giant data-processing system that nobody really understands."
+              attribution="Yuval Noah Harari, Homo Deus"
+            />
+            <Belief
               title="Data rooms should cost $480 a year, not $60,000"
               body="Enterprise VDR vendors charge 100x what the technology costs to deliver. Startups and boutique firms deserve the same security and compliance features without the enterprise tax. That's why I built Peony."
             />
@@ -331,11 +337,31 @@ export default function Home() {
   );
 }
 
-function Belief({ title, body }: { title: string; body: string }) {
+function Belief({
+  title,
+  body,
+  quote,
+  attribution,
+}: {
+  title: string;
+  body: string;
+  quote?: string;
+  attribution?: string;
+}) {
   return (
     <div className="border-l-2 border-border pl-4">
       <h3 className="text-base font-semibold text-foreground">{title}</h3>
       <p className="mt-1 text-sm leading-6 text-foreground/70">{body}</p>
+      {quote && (
+        <blockquote className="mt-4 text-sm italic leading-6 text-foreground/60">
+          {quote}
+          {attribution && (
+            <footer className="mt-2 not-italic text-xs text-muted">
+              — {attribution}
+            </footer>
+          )}
+        </blockquote>
+      )}
     </div>
   );
 }
