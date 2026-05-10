@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
+import { SITE_URL } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: SITE_URL },
+};
 
 export default function Home() {
   return (
@@ -141,6 +147,10 @@ export default function Home() {
               attribution="Yuval Noah Harari, Homo Deus"
             />
             <Belief
+              title="The size of your semantic search space predicts emotional control and bonding"
+              body="The more concepts, metaphors, and distinctions a person can readily reach for, the better they can name what they feel before it runs them — and the more precisely they can meet others where they are. You can't regulate what you can't label, and you can't bond across a gap you can't map. Vocabulary isn't decoration; it's the substrate of self-regulation and intimacy."
+            />
+            <Belief
               title="Data rooms should cost $480 a year, not $60,000"
               body="Enterprise VDR vendors charge 100x what the technology costs to deliver. Startups and boutique firms deserve the same security and compliance features without the enterprise tax. That's why I built Peony."
             />
@@ -149,12 +159,8 @@ export default function Home() {
               body="Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions like Gingercontrol cut classification time by 94% and improve accuracy 5.3x — at a fraction of the cost and error rate."
             />
             <Belief
-              title="GEO is the next SEO"
-              body="Generative Engine Optimization — making your brand citable by ChatGPT, Perplexity, Claude, and Google AI Overviews — is the next frontier of organic discovery. I've built Peony's traffic from 30 to 120+ daily clicks through content-led SEO and GEO, and I believe most brands are underinvesting in AI discoverability."
-            />
-            <Belief
-              title="The best SaaS GTM is PLG + content + outreach"
-              body="Product-led growth handles acquisition. Long-form, SEO-optimized content builds authority and compounds over time. Targeted cold outreach converts the prospects who read your content but didn't sign up. The three together are unbeatable for capital-efficient growth."
+              title="Content-led GEO is the new frontier of organic discovery"
+              body="Generative Engine Optimization — making your brand citable by ChatGPT, Perplexity, Claude, and Google AI Overviews — is reshaping how brands get found. I've built Peony's traffic from 10 to 150 daily clicks through content-led GEO, and most brands are underinvesting in AI discoverability."
             />
             <Belief
               title="Drop out if the opportunity cost is real"
@@ -163,10 +169,6 @@ export default function Home() {
             <Belief
               title="Build authority before you need it"
               body="The time to establish yourself as an expert is before your next venture, not during it. Content, community, and public thinking compound. Every founder should be writing."
-            />
-            <Belief
-              title="The size of your semantic search space predicts emotional control and bonding"
-              body="The more concepts, metaphors, and distinctions a person can readily reach for, the better they can name what they feel before it runs them — and the more precisely they can meet others where they are. You can't regulate what you can't label, and you can't bond across a gap you can't map. Vocabulary isn't decoration; it's the substrate of self-regulation and intimacy."
             />
           </div>
         </section>
@@ -200,11 +202,11 @@ export default function Home() {
             <ExpertiseCard
               title="SaaS Go-to-Market"
               items={[
-                "Product-led growth with freemium conversion",
-                "Content & SEO-driven acquisition (130+ posts)",
+                "Scaled Peony from 0 → 4,300+ teams in 6 months",
+                "Onboarded $18.8B+ in client assets to Peony",
+                "Advised SaaS company from early-stage to $20M ARR",
+                "Product-led freemium → paid conversion engine",
                 "Cold outreach at scale with personalization",
-                "Pricing strategy & tier design",
-                "Advised SaaS companies to $20M ARR",
               ]}
             />
             <ExpertiseCard
@@ -220,11 +222,10 @@ export default function Home() {
             <ExpertiseCard
               title="Online Scaling"
               items={[
-                "SEO: 4x organic traffic growth in 3 months",
-                "GEO: AI search optimization pioneer",
-                "Conversion rate optimization",
-                "Programmatic content at scale",
-                "Technical SEO & schema markup",
+                "SEO: 12x organic traffic in 3 months",
+                "GEO: 24x citation volume in 10 weeks",
+                "Grew Peony daily search clicks from 10 → 150",
+                "Programmatic content + technical schema at scale",
               ]}
             />
           </div>

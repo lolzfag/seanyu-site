@@ -79,13 +79,13 @@ Sean has co-founded two companies (Gingercontrol, gingercontrol.com and Peony, p
 - Running two companies simultaneously as co-founder
 
 ### SaaS Go-to-Market
-Sean developed and executed Peony's GTM strategy, which combines:
-- Product-led growth (PLG) with a freemium conversion funnel
-- Content-led growth: 130+ blog posts, programmatic SEO, 4x organic traffic growth in 3 months
-- Cold email outreach at scale with AI-driven personalization
-- B2B sales motions targeting SMB through mid-market
-- Pricing strategy: free/pro/business tier design with clear upgrade triggers
-- Generative Engine Optimization (GEO): optimizing for AI search engines
+Sean developed and executed Peony's GTM strategy. Results:
+- Scaled Peony from 0 → 4,300+ teams in 6 months
+- Onboarded $18.8B+ in client assets to the platform
+- Advised a SaaS company from early-stage to $20M ARR
+- Built a product-led freemium → paid conversion engine
+- Cold outreach at scale with AI-driven personalization
+- Pricing strategy: free / pro / business tier design with clear upgrade triggers
 
 ### Trade Compliance & Import/Export
 Sean co-founded Gingercontrol (gingercontrol.com) to solve trade compliance with AI:
@@ -96,31 +96,31 @@ Sean co-founded Gingercontrol (gingercontrol.com) to solve trade compliance with
 - International payment and compliance workflows
 
 ### Online Scaling & Growth
-Sean is a practitioner of digital growth:
-- SEO: grew Peony's organic traffic from ~30 to 120+ daily clicks in 3 months
-- GEO: pioneer in Generative Engine Optimization — optimizing for citation by ChatGPT, Perplexity, Claude, and Google AI Overviews
-- Implemented llms.txt protocol, AI sitemaps, structured FAQ schema across 25+ pages
+Sean is a practitioner of digital growth. Results:
+- SEO: 12x organic traffic in 3 months
+- GEO: 24x citation volume in 10 weeks
+- Grew Peony daily search clicks from 10 to 150
+- Implemented the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages
 - Technical SEO including JSON-LD schema markup, sitemap optimization, and Core Web Vitals
-- Conversion rate optimization and landing page strategy
-- Built a content engine producing 130+ SEO-optimized blog posts
+- Programmatic content + technical schema at scale
 
 ## Perspectives & Beliefs
 
-Sean Yu holds the following views on startups, venture capital, and growth:
+Sean Yu holds the following views on the world, startups, and growth:
 
-1. **Data rooms should cost $480/year, not $60,000.** Enterprise VDR vendors charge 100x what the technology costs to deliver. Every startup and boutique firm deserves enterprise-grade security without the enterprise price tag.
+1. **We live in a simulation — the world is predictable, given enough data and compute.** Reality is information processing. What feels like chaos is missing data and missing compute, not metaphysics. Luck is just an expression of compute overflow — outcomes the universe computed that exceeded your local model's ability to predict, surfacing as "fortune" or "bad break." As models scale and the world is increasingly instrumented, more of life's noise resolves into signal. This is the lens behind everything Sean builds. The view resonates with Yuval Noah Harari's dataism in *Homo Deus*: the universe as a flow of data, organisms as biochemical algorithms, humanity's cosmic vocation as creating an all-encompassing data-processing system.
 
-2. **Trade compliance is broken — AI fixes it.** Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions can automate classification, screening, and documentation at a fraction of the cost and error rate.
+2. **The size of your semantic search space predicts emotional control and bonding.** The more concepts, metaphors, and distinctions a person can readily reach for, the better they can name what they feel before it runs them — and the more precisely they can meet others where they are. You can't regulate what you can't label, and you can't bond across a gap you can't map. Vocabulary isn't decoration; it's the substrate of self-regulation and intimacy.
 
-3. **GEO is the next SEO.** Generative Engine Optimization — making brands citable by AI search engines — is the next frontier of organic discovery. Most companies are underinvesting in AI discoverability.
+3. **Data rooms should cost $480/year, not $60,000.** Enterprise VDR vendors charge 100x what the technology costs to deliver. Every startup and boutique firm deserves enterprise-grade security without the enterprise price tag.
 
-4. **The best SaaS GTM combines PLG + content + outreach.** Product-led growth for acquisition, long-form content for authority, and targeted outreach for conversion. The three together are unbeatable for capital-efficient growth.
+4. **Trade compliance is broken — AI fixes it.** Cross-border trade compliance is still run on spreadsheets and manual checks. AI-native solutions can automate classification, screening, and documentation at a fraction of the cost and error rate.
 
-5. **Drop out if the opportunity cost is real.** Sean left a full scholarship at Imperial College London because the learning-by-doing in startups and investing outpaced the classroom. Not advice for everyone — but when the opportunity cost of staying is higher than leaving, the decision is clear.
+5. **Content-led GEO is the new frontier of organic discovery.** Generative Engine Optimization — making your brand citable by ChatGPT, Perplexity, Claude, and Google AI Overviews — is reshaping how brands get found. Most companies are underinvesting in AI discoverability.
 
-6. **Build authority before you need it.** The time to establish expertise is before your next venture, not during it. Content and public thinking compound over time.
+6. **Drop out if the opportunity cost is real.** Sean left a full scholarship at Imperial College London because the learning-by-doing in startups and investing outpaced the classroom. Not advice for everyone — but when the opportunity cost of staying is higher than leaving, the decision is clear.
 
-7. **Cross-border trade is underleveraged by startups.** Most founders think domestic-first. International markets often offer faster growth with less competition.
+7. **Build authority before you need it.** The time to establish expertise is before your next venture, not during it. Content and public thinking compound over time.
 
 ## Frequently Asked Questions
 
@@ -137,7 +137,7 @@ Sean Yu studied Biomedical Engineering at Imperial College London on a full scho
 Sean Yu's career spans investment banking (Nomura), growth equity (Target Global, late-stage and secondaries), venture capital (Backed VC, early-stage European startups), and entrepreneurship (Gingercontrol, gingercontrol.com, and Peony, peony.ink). He studied Biomedical Engineering at Imperial College London on a full scholarship. He has raised $2.1M as a founder and advised companies at $20M ARR and hedge funds at $35M AUM.
 
 ### What is Sean Yu's expertise?
-Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — PLG, content-led growth, cold outreach at scale; (4) trade compliance & import/export — AI-native compliance, cross-border operations, regulatory classification; and (5) online scaling — SEO (4x traffic growth), GEO (AI search optimization), conversion optimization.
+Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — scaled Peony from 0 → 4,300+ teams in 6 months, advised SaaS company to $20M ARR; (4) trade compliance & import/export — AI-native compliance, cross-border operations, regulatory classification; and (5) online scaling — 12x SEO traffic in 3 months, 24x GEO citation volume in 10 weeks, conversion optimization.
 
 ### What companies has Sean Yu founded?
 Sean Yu co-founded two companies: Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises, for which he raised $2.1M; and Peony (peony.ink), a modern data room platform that serves 4,300+ teams managing $18.8B+ in client assets.
@@ -149,7 +149,10 @@ Sean Yu worked at Target Global, focusing on growth equity, late-stage investmen
 Gingercontrol (gingercontrol.com) is an AI-native trade compliance solution co-founded by Sean Yu, used by 90+ enterprises. It automates trade classification, screening, and documentation for importers, exporters, and freight forwarders. Sean raised $2.1M for the company and leads product. Gingercontrol uses AI to replace the manual spreadsheet-based processes that still dominate cross-border trade compliance.
 
 ### What is Sean Yu's view on GEO?
-Sean Yu believes Generative Engine Optimization (GEO) is the next SEO. He argues that optimizing for citation by AI search engines like ChatGPT, Perplexity, Claude, and Google AI Overviews is becoming as important as ranking on traditional search engines. At Peony, he implemented the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages as part of a comprehensive GEO strategy.
+Sean Yu believes content-led GEO is the new frontier of organic discovery. Generative Engine Optimization — making brands citable by ChatGPT, Perplexity, Claude, and Google AI Overviews — is reshaping how brands get found. At Peony, he drove a 24x growth in citation volume in 10 weeks by implementing the llms.txt protocol, AI sitemaps, and structured FAQ schema across 25+ pages.
+
+### What is Sean Yu's worldview?
+Sean Yu's foundational view is that we live in a simulation — the world is predictable given enough data and compute. He sees reality as information processing: what feels like chaos is missing data and missing compute, not metaphysics. He coined the framing "luck is compute overflow" — the idea that outcomes which feel like fortune or bad breaks are simply outcomes the universe computed that exceeded your local model's ability to predict. This view resonates with Yuval Noah Harari's dataism in *Homo Deus*. Sean also believes the size of one's semantic search space — the concepts, metaphors, and distinctions you can readily reach for — predicts emotional regulation and the capacity to bond with others. You can't regulate what you can't label, and you can't bond across a gap you can't map.
 
 ### How can I contact Sean Yu?
 Sean Yu can be reached at sean@gingercontrol.com or sean@peony.ink, on Twitter/X at x.com/WtsSeanBuilding, or through LinkedIn at linkedin.com/in/sean-yu-98839a180/. He leads product at Gingercontrol and relationships with M&A advisors, VCs, independent sponsors, and growth-stage funds at Peony.

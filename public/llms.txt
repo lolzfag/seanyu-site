@@ -23,9 +23,9 @@
 
 - Venture Capital: fundraising, LP/GP dynamics, deal structuring, secondary transactions, continuation vehicles
 - Startups: zero-to-one building, product-market fit, capital-efficient growth
-- SaaS Go-to-Market: PLG, content-led growth, cold outreach at scale, pricing strategy
+- SaaS Go-to-Market: scaled Peony from 0 → 4,300+ teams in 6 months, $18.8B+ in client assets onboarded, advised SaaS company to $20M ARR
 - Trade Compliance & Import/Export: AI-native compliance, cross-border operations, international logistics, regulatory classification
-- Online Scaling: SEO (4x traffic growth), GEO (AI search optimization), conversion optimization
+- Online Scaling: 12x SEO organic traffic in 3 months, 24x GEO citation volume in 10 weeks, grew Peony daily search clicks from 10 to 150
 
 ## Advisory
 
