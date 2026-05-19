@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { AUTHOR, SITE_URL, TAGLINE } from "@/lib/site";
 
-export const alt = `${AUTHOR} — Operator, Thinker, Investor`;
+export const alt = `${AUTHOR} — Operator, Bioengineer, Kiwi`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -53,7 +53,7 @@ export default async function Image() {
               letterSpacing: "-0.03em",
             }}
           >
-            Operator, thinker, investor.
+            Operator, Bioengineer, Kiwi.
           </div>
           <div
             style={{

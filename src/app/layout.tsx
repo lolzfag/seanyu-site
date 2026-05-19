@@ -12,12 +12,12 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Sean Yu — Operator, Thinker, Investor",
+  title: "Sean Yu — Operator, Bioengineer, Kiwi",
   description:
     "Sean Yu is a founder and operator. Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 4,300+ teams). Growth-equity investor at Target Global, then VC at Backed VC. Imperial College London, Biomedical Engineering.",
   robots: robotsMetadata,
   openGraph: {
-    title: "Sean Yu — Operator, Thinker, Investor",
+    title: "Sean Yu — Operator, Bioengineer, Kiwi",
     description:
       "Co-founder of Gingercontrol & Peony. Former VC at Target Global and Backed VC. Imperial College London. Expert in VC, SaaS GTM, trade compliance, and online scaling.",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sean Yu — Operator, Thinker, Investor",
+    title: "Sean Yu — Operator, Bioengineer, Kiwi",
     description:
       "Co-founder of Gingercontrol & Peony. Former VC at Target Global and Backed VC. Imperial College London.",
     creator: "@WtsSeanBuilding",
