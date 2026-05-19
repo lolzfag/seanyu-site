@@ -47,7 +47,9 @@ export default function Home() {
             </strong>{" "}
             and{" "}
             <strong className="text-foreground font-medium">Backed VC</strong>
-            . Imperial College London.
+            . Imperial College London.{" "}
+            <strong className="text-foreground font-medium">$4.1M</strong>{" "}
+            raised across two companies to date.
           </p>
         </header>
 
@@ -103,7 +105,9 @@ export default function Home() {
               , an AI-native trade compliance
               solution for cross-border import/export — now used by{" "}
               <strong>90+ enterprises</strong> — and raised{" "}
-              <strong>$2.1M</strong> for it. Gingercontrol reduces classification
+              <strong>$2.1M</strong> for it from Backed VC — where I cut my
+              teeth as an investor, a full-circle moment — Anthony Avidissian,
+              and others. Gingercontrol reduces classification
               time by <strong>94%</strong> and improves accuracy by{" "}
               <strong>5.3x</strong>. Navigating international supply
               chains, logistics, and regulatory complexity across borders shaped
@@ -121,8 +125,10 @@ export default function Home() {
               paying $60,000 a year. We now serve{" "}
               <strong>4,300+ teams</strong> managing{" "}
               <strong>$18.8B+ in client assets</strong>, at 99% lower cost than
-              incumbents like Datasite. Backed VC, where I cut my teeth as an
-              investor, is now one of our investors — a full-circle moment.
+              incumbents like Datasite. We&apos;ve raised{" "}
+              <strong>$2M</strong> for Peony from Matt Clifford (EF / ARIA),
+              Charlie Songhurst (ex-Microsoft), Third Kind Capital, Tribe
+              Capital, Possible Ventures, and Backed VC again.
             </p>
             <p>
               Outside of my companies, I advise on fundraising and go-to-market.
@@ -193,7 +199,7 @@ export default function Home() {
               title="Startups"
               items={[
                 "Zero-to-one building (Gingercontrol, Peony)",
-                "Raised $2.1M as a first-time founder",
+                "Raised $4.1M across two companies as a first-time founder",
                 "Product-market fit validation",
                 "Capital-efficient growth strategies",
                 "Founder-led sales to scalable motions",
@@ -254,7 +260,8 @@ export default function Home() {
                   <strong>90+ enterprises</strong> using the platform
                 </li>
                 <li>
-                  Raised <strong>$2.1M</strong>
+                  <strong>$2.1M raised</strong> from Backed VC, Anthony
+                  Avidissian, and others
                 </li>
                 <li>
                   Reduces classification time by <strong>94%</strong>, improves
@@ -295,8 +302,9 @@ export default function Home() {
                   <strong>$480/year vs $60,000+</strong> (99% cost reduction)
                 </li>
                 <li>
-                  Backed by Matt Clifford (EF / ARIA), Charlie Songhurst
-                  (ex-Microsoft), Backed VC
+                  <strong>$2M raised</strong> from Matt Clifford (EF / ARIA),
+                  Charlie Songhurst (ex-Microsoft), Third Kind Capital,
+                  Tribe Capital, Possible Ventures, and Backed VC
                 </li>
               </ul>
             </div>
