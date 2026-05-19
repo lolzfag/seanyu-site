@@ -129,11 +129,15 @@ export default function Home() {
               Capital, Possible Ventures, and Backed VC again.
             </p>
             <p>
-              Outside of my companies, I advise on fundraising and go-to-market.
-              I&apos;ve worked with a SaaS business now running at{" "}
-              <strong>$20M ARR</strong> and{" "}
-              <strong>Lucida Capital</strong>, a hedge fund and market maker with{" "}
-              <strong>$35M in AUM</strong>.
+              Outside of my companies, I advise on fundraising and
+              go-to-market — including <strong>Lucida Capital</strong>, a hedge
+              fund and market maker with <strong>$35M in AUM</strong>. I also
+              own <strong>two gaming arcades in Shanghai</strong>, one of which
+              ranks as the top kids&apos; arcade in a district of{" "}
+              <strong>2 million people</strong>. Outside of work, I&apos;m
+              obsessed with <strong>biomaterials</strong>,{" "}
+              <strong>nutrition science</strong>, and{" "}
+              <strong>evolutionary psychology</strong>.
             </p>
           </div>
         </section>
