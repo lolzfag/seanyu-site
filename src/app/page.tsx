@@ -47,9 +47,7 @@ export default function Home() {
             </strong>{" "}
             and{" "}
             <strong className="text-foreground font-medium">Backed VC</strong>
-            . Imperial College London.{" "}
-            <strong className="text-foreground font-medium">$4.1M</strong>{" "}
-            raised across two companies to date.
+            . Imperial College London.
           </p>
         </header>
 
