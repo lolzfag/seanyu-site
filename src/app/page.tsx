@@ -131,10 +131,12 @@ export default function Home() {
             <p>
               Outside of my companies, I advise on fundraising and
               go-to-market — including <strong>Lucida Capital</strong>, a hedge
-              fund and market maker with <strong>$35M in AUM</strong>. I also
-              own <strong>two gaming arcades in Shanghai</strong>, one of which
-              ranks as the top kids&apos; arcade in a district of{" "}
-              <strong>2 million people</strong>. Outside of work, I&apos;m
+              fund and market maker with <strong>$35M in AUM</strong>. With a
+              friend, I also bootstrapped{" "}
+              <strong>two gaming arcades in Shanghai&apos;s Baoshan district</strong>
+              {" "}— one of which ranks as the top kids&apos; arcade in Baoshan,
+              a district of <strong>2 million people</strong>. Outside of work,
+              I&apos;m
               obsessed with <strong>biomaterials</strong>,{" "}
               <strong>nutrition science</strong>, and{" "}
               <strong>evolutionary psychology</strong>.
