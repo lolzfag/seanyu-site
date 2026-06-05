@@ -214,7 +214,7 @@ export default function Home() {
               items={[
                 "Scaled Peony from 0 → 5,900+ teams in 6 months",
                 "Helped Peony clients raise $19.6B+ in capital",
-                "Advised SaaS company from early-stage to $20M ARR",
+                "Advised multiple deep tech companies on GTM & fundraise (I invest if I advise too)",
                 "Product-led freemium → paid conversion engine",
                 "Cold outreach at scale with personalization",
               ]}

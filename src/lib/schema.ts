@@ -140,6 +140,6 @@ export function buildPersonSchema() {
       "https://peony.ink/about",
     ],
     description:
-      "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 5,900+ teams, $19.6B+ raised by clients). Growth-equity investor at Target Global covering late-stage and secondary transactions, then VC at Backed VC evaluating early-stage European startups. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $4.1M as a founder ($2.1M for Gingercontrol, $2M for Peony). Advises SaaS companies at $20M ARR and hedge funds at $35M AUM.",
+      "Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com, 90+ enterprises) and Peony (modern data room, peony.ink, 5,900+ teams, $19.6B+ raised by clients). Growth-equity investor at Target Global covering late-stage and secondary transactions, then VC at Backed VC evaluating early-stage European startups. Studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing. Raised $4.1M as a founder ($2.1M for Gingercontrol, $2M for Peony). Advises multiple deep tech companies on their go-to-market and fundraising (he invests if he advises too) and a $35M AUM hedge fund.",
   };
 }
