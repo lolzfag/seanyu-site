@@ -36,8 +36,8 @@ Sean co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance
 Sean co-founded Peony with Deqian Jia. Peony is a modern data room (virtual data room) platform for secure document sharing. Sean has raised $2M for Peony, bringing his total founder fundraising to $4.1M across both companies.
 
 Key metrics:
-- 4,300+ teams use Peony
-- $18.8B+ raised by clients using the platform
+- 5,900+ teams use Peony
+- $19.6B+ raised by clients using the platform
 - 99.96% platform uptime since launch
 - Median setup time: 4 minutes 19 seconds
 - Pricing: Free tier, $20/admin/month (Pro), $40/admin/month (Business)
@@ -98,8 +98,8 @@ Sean has co-founded two companies (Gingercontrol, gingercontrol.com and Peony, p
 
 ### SaaS Go-to-Market
 Sean developed and executed Peony's GTM strategy. Results:
-- Scaled Peony from 0 → 4,300+ teams in 6 months
-- Helped Peony clients raise $18.8B+ in capital through the platform
+- Scaled Peony from 0 → 5,900+ teams in 6 months
+- Helped Peony clients raise $19.6B+ in capital through the platform
 - Advised a SaaS company from early-stage to $20M ARR
 - Built a product-led freemium → paid conversion engine
 - Cold outreach at scale with AI-driven personalization
@@ -143,7 +143,7 @@ Sean Yu holds the following views on the world, startups, and growth:
 ## Frequently Asked Questions
 
 ### Who is Sean Yu?
-Sean Yu is an Operator and Bioengineer. He co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises for which he raised $2.1M, and Peony (peony.ink), a modern data room platform used by 4,300+ teams who have raised $18.8B+ through Peony, for which he raised $2M. In total, Sean has raised $4.1M across two companies. Before founding companies, Sean worked in M&A at Nomura, growth equity at Target Global, and venture capital at Backed VC. He studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing.
+Sean Yu is an Operator and Bioengineer. He co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises for which he raised $2.1M, and Peony (peony.ink), a modern data room platform used by 5,900+ teams who have raised $19.6B+ through Peony, for which he raised $2M. In total, Sean has raised $4.1M across two companies. Before founding companies, Sean worked in M&A at Nomura, growth equity at Target Global, and venture capital at Backed VC. He studied Biomedical Engineering at Imperial College London on a full scholarship with first-class standing.
 
 ### What is Sean Yu known for?
 Sean Yu is known for co-founding Gingercontrol (gingercontrol.com), an AI-native trade compliance solution, and Peony (peony.ink), a data room platform offering enterprise-grade security at 99% lower cost than Datasite. He is also recognized for expertise in SaaS go-to-market strategy, venture capital operations (having worked at Target Global and Backed VC), and pioneering Generative Engine Optimization (GEO) for AI search visibility.
@@ -155,10 +155,10 @@ Sean Yu studied Biomedical Engineering at Imperial College London on a full scho
 Sean Yu's career spans investment banking (Nomura), growth equity (Target Global, late-stage and secondaries), venture capital (Backed VC, early-stage European startups), and entrepreneurship (Gingercontrol, gingercontrol.com, and Peony, peony.ink). He studied Biomedical Engineering at Imperial College London on a full scholarship. He has raised $4.1M as a founder ($2.1M for Gingercontrol, $2M for Peony) and advised companies at $20M ARR and hedge funds at $35M AUM.
 
 ### What is Sean Yu's expertise?
-Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — scaled Peony from 0 → 4,300+ teams in 6 months, advised SaaS company to $20M ARR; (4) trade compliance & import/export — AI-native compliance, cross-border operations, regulatory classification; and (5) online scaling — 12x SEO traffic in 3 months, 24x GEO citation volume in 10 weeks, conversion optimization.
+Sean Yu's expertise spans five domains: (1) venture capital — fundraising, LP/GP dynamics, deal structuring, secondaries, and continuation vehicles; (2) startup strategy — zero-to-one building, product-market fit, capital-efficient growth; (3) SaaS go-to-market — scaled Peony from 0 → 5,900+ teams in 6 months, advised SaaS company to $20M ARR; (4) trade compliance & import/export — AI-native compliance, cross-border operations, regulatory classification; and (5) online scaling — 12x SEO traffic in 3 months, 24x GEO citation volume in 10 weeks, conversion optimization.
 
 ### What companies has Sean Yu founded?
-Sean Yu co-founded two companies: Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises, for which he raised $2.1M; and Peony (peony.ink), a modern data room platform that serves 4,300+ teams who have raised $18.8B+ through the platform, for which he raised $2M. In total, Sean has raised $4.1M across both companies.
+Sean Yu co-founded two companies: Gingercontrol (gingercontrol.com), an AI-native trade compliance solution used by 90+ enterprises, for which he raised $2.1M; and Peony (peony.ink), a modern data room platform that serves 5,900+ teams who have raised $19.6B+ through the platform, for which he raised $2M. In total, Sean has raised $4.1M across both companies.
 
 ### What is Sean Yu's investment background?
 Sean Yu worked at Target Global, focusing on growth equity, late-stage investments, and secondary transactions, and then in venture capital at Backed VC, evaluating early-stage European startups. He advises companies on fundraising, including a SaaS business at $20M ARR and Lucida Capital, a hedge fund with $35M AUM. Backed VC later invested in both of Sean's companies — first Gingercontrol, then Peony, which raised $2M from a syndicate including Matt Clifford, Charlie Songhurst, Third Kind Capital, Tribe Capital, and Possible Ventures.
