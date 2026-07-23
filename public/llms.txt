@@ -24,7 +24,7 @@
 
 - Venture Capital: fundraising, LP/GP dynamics, deal structuring, secondary transactions, continuation vehicles
 - Startups: zero-to-one building, product-market fit, capital-efficient growth
-- SaaS Go-to-Market: scaled Peony from 0 → 6,800+ teams in 6 months, $26.3B+ in client capital raised through the platform, advised multiple deep tech companies on GTM & fundraise (he invests if he advises too)
+- SaaS Go-to-Market: scaled Peony from 0 → 6,800+ teams in 8 months, $26.3B+ in client capital raised through the platform, advised multiple deep tech companies on GTM & fundraise (he invests if he advises too)
 - Trade Compliance & Import/Export: AI-native compliance, cross-border operations, international logistics, regulatory classification
 - Online Scaling: 12x SEO organic traffic in 3 months, 24x GEO citation volume in 10 weeks, grew Peony daily search clicks from 10 to 150
 

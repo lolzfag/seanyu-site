@@ -212,7 +212,7 @@ export default function Home() {
             <ExpertiseCard
               title="SaaS Go-to-Market"
               items={[
-                "Scaled Peony from 0 → 6,800+ teams in 6 months",
+                "Scaled Peony from 0 → 6,800+ teams in 8 months",
                 "Helped Peony clients raise $26.3B+ in capital",
                 "Advised multiple deep tech companies on GTM & fundraise (I invest if I advise too)",
                 "Product-led freemium → paid conversion engine",
