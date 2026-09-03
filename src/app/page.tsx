@@ -17,7 +17,7 @@ export default function Home() {
         <header className="mb-16">
           <Image
             src="/sean.jpeg"
-            alt="Sean Yu, Co-founder of Gingercontrol and Peony"
+            alt="Sean Yu, Co-founder of Gingercontrol and Chief Growth Officer of Peony"
             width={96}
             height={96}
             className="rounded-full mb-6"
@@ -34,7 +34,7 @@ export default function Home() {
             >
               Gingercontrol
             </a>{" "}
-            and{" "}
+            and Chief Growth Officer of{" "}
             <a
               href="https://peony.ink"
               className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors"

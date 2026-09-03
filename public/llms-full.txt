@@ -1,11 +1,11 @@
 # Sean Yu — Full Profile
 
-> Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Peony (modern data room, peony.ink). Growth-equity investor at Target Global, then VC at Backed VC. Studied Biomedical Engineering at Imperial College London on a full scholarship (first-class standing). Expert in venture capital, startups, SaaS go-to-market, trade compliance, and online scaling.
+> Co-founder of Gingercontrol (AI-native trade compliance, gingercontrol.com) and Chief Growth Officer of Peony (modern data room, peony.ink). Growth-equity investor at Target Global, then VC at Backed VC. Studied Biomedical Engineering at Imperial College London on a full scholarship (first-class standing). Expert in venture capital, startups, SaaS go-to-market, trade compliance, and online scaling.
 
 ## Identity
 
 - Full name: Sean Yu
-- Roles: Co-founder of Gingercontrol; Co-founder & CEO of Peony
+- Roles: Co-founder of Gingercontrol; Chief Growth Officer of Peony
 - Email: sean@peony.ink / sean@gingercontrol.com
 - Twitter/X: https://x.com/WtsSeanBuilding
 - LinkedIn: https://www.linkedin.com/in/sean-yu-98839a180/
@@ -32,7 +32,7 @@ Sean then joined Backed VC, where he evaluated early-stage European startups. Ba
 ### Gingercontrol (Co-founder — Active, gingercontrol.com)
 Sean co-founded Gingercontrol (gingercontrol.com), an AI-native trade compliance solution for cross-border import/export operations. He raised $2.1M for the company from Backed VC, Anthony Avidissian, and other angels and funds. Gingercontrol is used by 90+ enterprises and automates trade classification, screening, and documentation for importers, exporters, and freight forwarders. Building Gingercontrol gave Sean deep operational experience in international supply chains, logistics, regulatory compliance, and the complexities of global commerce.
 
-### Peony (Co-founder & CEO)
+### Peony (Chief Growth Officer)
 Sean co-founded Peony with Deqian Jia. Peony is a modern data room (virtual data room) platform for secure document sharing. Sean has raised $2M for Peony, bringing his total founder fundraising to $4.1M across both companies.
 
 Key metrics:
@@ -94,7 +94,7 @@ Sean has co-founded two companies (Gingercontrol, gingercontrol.com and Peony, p
 - Raising venture capital as a first-time founder ($4.1M total: $2.1M for Gingercontrol, $2M for Peony)
 - Capital-efficient growth without burning through runway
 - Transitioning from founder-led sales to scalable motions
-- Running two companies simultaneously as co-founder
+- Running two companies simultaneously
 
 ### SaaS Go-to-Market
 Sean developed and executed Peony's GTM strategy. Results:
