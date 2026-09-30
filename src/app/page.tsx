@@ -121,7 +121,7 @@ export default function Home() {
               </a>{" "}
               to make data rooms accessible to every team — not just enterprises
               paying $60,000 a year. We now serve{" "}
-              <strong>6,800+ teams</strong> who have raised{" "}
+              <strong>8,000+ teams</strong> who have raised{" "}
               <strong>$26.3B+</strong> through Peony, at 99% lower cost than
               incumbents like Datasite. We&apos;ve raised{" "}
               <strong>$2M</strong> for Peony from Matt Clifford (EF / ARIA),
@@ -212,7 +212,7 @@ export default function Home() {
             <ExpertiseCard
               title="SaaS Go-to-Market"
               items={[
-                "Scaled Peony from 0 → 6,800+ teams in 8 months",
+                "Scaled Peony from 0 → 8,000+ teams in 8 months",
                 "Helped Peony clients raise $26.3B+ in capital",
                 "Advised multiple deep tech companies on GTM & fundraise (I invest if I advise too)",
                 "Product-led freemium → paid conversion engine",
@@ -291,7 +291,7 @@ export default function Home() {
               </p>
               <ul className="mt-4 space-y-2 text-sm text-foreground/80">
                 <li>
-                  <strong>6,800+ teams</strong>, $26.3B+ raised by clients
+                  <strong>8,000+ teams</strong>, $26.3B+ raised by clients
                 </li>
                 <li>
                   <strong>99.96% uptime</strong> since launch
