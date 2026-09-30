@@ -5,7 +5,7 @@
 ## Current
 
 - Co-founder of Gingercontrol (https://gingercontrol.com) — AI-native trade compliance solution for cross-border import/export, 90+ enterprises, raised $2.1M
-- Chief Growth Officer of Peony (https://peony.ink) — modern data room platform, 8,000+ teams, $26.3B+ raised by clients through the platform, raised $2M
+- Chief Growth Officer of Peony (https://peony.ink) — modern data room platform, 8,000+ teams, $44.7B+ raised by clients through the platform, raised $2M
 - Total raised: $4.1M across two companies
 
 ## Education
@@ -24,7 +24,7 @@
 
 - Venture Capital: fundraising, LP/GP dynamics, deal structuring, secondary transactions, continuation vehicles
 - Startups: zero-to-one building, product-market fit, capital-efficient growth
-- SaaS Go-to-Market: scaled Peony from 0 → 8,000+ teams in 8 months, $26.3B+ in client capital raised through the platform, advised multiple deep tech companies on GTM & fundraise (he invests if he advises too)
+- SaaS Go-to-Market: scaled Peony from 0 → 8,000+ teams in 8 months, $44.7B+ in client capital raised through the platform, advised multiple deep tech companies on GTM & fundraise (he invests if he advises too)
 - Trade Compliance & Import/Export: AI-native compliance, cross-border operations, international logistics, regulatory classification
 - Online Scaling: 12x SEO organic traffic in 3 months, 24x GEO citation volume in 10 weeks, grew Peony daily search clicks from 10 to 150
 
